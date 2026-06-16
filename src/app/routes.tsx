@@ -38,7 +38,7 @@ import { AdminApp } from "./components/admin/AdminApp";
 
 import { useSiteData } from "./context/SiteDataContext";
 
-// ── Home ─-────────────────────────────────────────────────────────────
+// ── Home ────────────────────────────────────────────────────────────
 function HomePage() {
   return (
     <>
