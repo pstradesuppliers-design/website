@@ -1,0 +1,174 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+
+  /* ── Brand tokens ─────────────────────────── */
+  --brand-primary:      #049DBF;
+  --brand-primary-dark: #037a96;
+  --brand-primary-light:#e6f6fa;
+  --brand-secondary:    #F27127;
+  --brand-secondary-dark:#c4591a;
+  --brand-secondary-light:#fef0e6;
+  --brand-green:        #84BF49;
+  --brand-green-dark:   #639436;
+  --brand-green-light:  #f0f7e7;
+  --brand-yellow:       #F2E205;
+  --brand-yellow-dark:  #c2b504;
+  --brand-dark:         #0D0D0D;
+
+  /* ── Surface tokens ───────────────────────── */
+  --background:         #ffffff;
+  --foreground:         #0D0D0D;
+  --card:               #ffffff;
+  --card-foreground:    #0D0D0D;
+  --popover:            #ffffff;
+  --popover-foreground: #0D0D0D;
+  --primary:            #049DBF;
+  --primary-foreground: #ffffff;
+  --secondary:          #F27127;
+  --secondary-foreground: #ffffff;
+  --muted:              #f4f6f8;
+  --muted-foreground:   #6b7280;
+  --accent:             #84BF49;
+  --accent-foreground:  #ffffff;
+  --destructive:        #ef4444;
+  --destructive-foreground: #ffffff;
+  --border:             #e5e7eb;
+  --input:              transparent;
+  --input-background:   #f9fafb;
+  --switch-background:  #d1d5db;
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+  --ring:               #049DBF;
+  --radius:             0.5rem;
+
+  /* Chart */
+  --chart-1: #049DBF;
+  --chart-2: #84BF49;
+  --chart-3: #F27127;
+  --chart-4: #F2E205;
+  --chart-5: #0D0D0D;
+
+  /* Sidebar */
+  --sidebar:            #0D0D0D;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary:    #049DBF;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:     #1a1a1a;
+  --sidebar-accent-foreground: #e5e7eb;
+  --sidebar-border:     rgba(255,255,255,0.08);
+  --sidebar-ring:       #049DBF;
+}
+
+.dark {
+  --background:         #0D0D0D;
+  --foreground:         #f9fafb;
+  --card:               #1a1a1a;
+  --card-foreground:    #f9fafb;
+  --popover:            #1a1a1a;
+  --popover-foreground: #f9fafb;
+  --primary:            #049DBF;
+  --primary-foreground: #ffffff;
+  --secondary:          #F27127;
+  --secondary-foreground: #ffffff;
+  --muted:              #1f2937;
+  --muted-foreground:   #9ca3af;
+  --accent:             #84BF49;
+  --accent-foreground:  #ffffff;
+  --destructive:        #ef4444;
+  --destructive-foreground: #ffffff;
+  --border:             rgba(255,255,255,0.1);
+  --input:              #1f2937;
+  --input-background:   #1f2937;
+  --switch-background:  #374151;
+  --font-weight-medium: 600;
+  --font-weight-normal: 400;
+  --ring:               #049DBF;
+  --sidebar:            #111111;
+  --sidebar-foreground: #f9fafb;
+  --sidebar-primary:    #049DBF;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:     #1a1a1a;
+  --sidebar-accent-foreground: #e5e7eb;
+  --sidebar-border:     rgba(255,255,255,0.06);
+  --sidebar-ring:       #049DBF;
+}
+
+@theme inline {
+  --color-background:         var(--background);
+  --color-foreground:         var(--foreground);
+  --color-card:               var(--card);
+  --color-card-foreground:    var(--card-foreground);
+  --color-popover:            var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary:            var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary:          var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted:              var(--muted);
+  --color-muted-foreground:   var(--muted-foreground);
+  --color-accent:             var(--accent);
+  --color-accent-foreground:  var(--accent-foreground);
+  --color-destructive:        var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border:             var(--border);
+  --color-input:              var(--input);
+  --color-input-background:   var(--input-background);
+  --color-switch-background:  var(--switch-background);
+  --color-ring:               var(--ring);
+  --color-chart-1:            var(--chart-1);
+  --color-chart-2:            var(--chart-2);
+  --color-chart-3:            var(--chart-3);
+  --color-chart-4:            var(--chart-4);
+  --color-chart-5:            var(--chart-5);
+  --radius-sm:   calc(var(--radius) - 4px);
+  --radius-md:   calc(var(--radius) - 2px);
+  --radius-lg:   var(--radius);
+  --radius-xl:   calc(var(--radius) + 4px);
+  --color-sidebar:            var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary:    var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent:     var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border:     var(--sidebar-border);
+  --color-sidebar-ring:       var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    box-sizing: border-box;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: var(--font-size);
+    -webkit-font-smoothing: antialiased;
+  }
+  html { font-size: var(--font-size); }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--foreground);
+  }
+  h1 { font-size: clamp(2rem, 4vw, 3.5rem); }
+  h2 { font-size: clamp(1.5rem, 3vw, 2.5rem); }
+  h3 { font-size: clamp(1.25rem, 2vw, 1.75rem); }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.125rem; }
+  h6 { font-size: 1rem; }
+
+  p { line-height: 1.7; color: var(--foreground); }
+  label { font-weight: 500; }
+  button { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-weight: 600; }
+  input, textarea, select { font-family: 'Inter', system-ui, sans-serif; }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }
+}
