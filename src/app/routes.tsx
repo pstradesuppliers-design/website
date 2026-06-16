@@ -1,4 +1,9 @@
-import { createBrowserRouter, useParams, useNavigate, Navigate } from "react-router";
+import {
+  createBrowserRouter,
+  useParams,
+  useNavigate,
+  Navigate,
+} from "react-router";
 import { RootLayout } from "./components/layout/RootLayout";
 import { AdminLayout } from "./components/layout/AdminLayout";
 
@@ -33,7 +38,7 @@ import { AdminApp } from "./components/admin/AdminApp";
 
 import { useSiteData } from "./context/SiteDataContext";
 
-// ── Home ─────────────────────────────────────────────────────────────
+// ── Home ─-────────────────────────────────────────────────────────────
 function HomePage() {
   return (
     <>
@@ -54,7 +59,9 @@ function HomePage() {
 // ── Solutions ─────────────────────────────────────────────────────────
 function SolutionsPage() {
   const navigate = useNavigate();
-  return <SolutionsLanding onSelectSolution={(id) => navigate(`/solutions/${id}`)} />;
+  return (
+    <SolutionsLanding onSelectSolution={(id) => navigate(`/solutions/${id}`)} />
+  );
 }
 
 function SolutionDetailPage() {
@@ -76,7 +83,9 @@ function SolutionDetailPage() {
 // ── Services ──────────────────────────────────────────────────────────
 function ServicesPage() {
   const navigate = useNavigate();
-  return <ServicesLanding onSelectService={(id) => navigate(`/services/${id}`)} />;
+  return (
+    <ServicesLanding onSelectService={(id) => navigate(`/services/${id}`)} />
+  );
 }
 
 function ServiceDetailPage() {
@@ -98,7 +107,12 @@ function ServiceDetailPage() {
 function TeamPage() {
   const { teamData } = useSiteData();
   const navigate = useNavigate();
-  return <TeamGrid members={teamData} onSelectMember={(id) => navigate(`/team/${id}`)} />;
+  return (
+    <TeamGrid
+      members={teamData}
+      onSelectMember={(id) => navigate(`/team/${id}`)}
+    />
+  );
 }
 
 function TeamProfilePage() {
@@ -119,7 +133,9 @@ function TeamProfilePage() {
 // ── Projects ──────────────────────────────────────────────────────────
 function ProjectsPage() {
   const navigate = useNavigate();
-  return <ProjectsLanding onSelectProject={(id) => navigate(`/projects/${id}`)} />;
+  return (
+    <ProjectsLanding onSelectProject={(id) => navigate(`/projects/${id}`)} />
+  );
 }
 
 function ProjectDetailPage() {
@@ -141,7 +157,12 @@ function ProjectDetailPage() {
 // ── Contact ───────────────────────────────────────────────────────────
 function ContactRoute() {
   const { contactSubmissions, addContactSubmission } = useSiteData();
-  return <ContactPage submissions={contactSubmissions} onSubmit={addContactSubmission} />;
+  return (
+    <ContactPage
+      submissions={contactSubmissions}
+      onSubmit={addContactSubmission}
+    />
+  );
 }
 
 // ── Admin ─────────────────────────────────────────────────────────────
@@ -155,7 +176,15 @@ function NotFound() {
   const navigate = useNavigate();
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center text-center px-6">
-      <p className="text-7xl font-extrabold mb-4" style={{ color: "var(--brand-primary)", fontFamily: "Plus Jakarta Sans, sans-serif" }}>404</p>
+      <p
+        className="text-7xl font-extrabold mb-4"
+        style={{
+          color: "var(--brand-primary)",
+          fontFamily: "Plus Jakarta Sans, sans-serif",
+        }}
+      >
+        404
+      </p>
       <h2 className="mb-3">Page Not Found</h2>
       <p className="mb-8" style={{ color: "var(--muted-foreground)" }}>
         The page you're looking for doesn't exist or has been moved.
@@ -163,7 +192,10 @@ function NotFound() {
       <button
         onClick={() => navigate("/")}
         className="px-6 py-3 rounded-xl font-bold text-white"
-        style={{ background: "var(--brand-primary)", fontFamily: "Plus Jakarta Sans, sans-serif" }}
+        style={{
+          background: "var(--brand-primary)",
+          fontFamily: "Plus Jakarta Sans, sans-serif",
+        }}
       >
         Back to Home
       </button>
@@ -177,27 +209,25 @@ export const router = createBrowserRouter([
     // Admin — full-screen layout (no site Navbar/Footer)
     path: "/admin",
     Component: AdminLayout,
-    children: [
-      { index: true, Component: AdminRoute },
-    ],
+    children: [{ index: true, Component: AdminRoute }],
   },
   {
     // Public site — shared Navbar + Footer layout
     path: "/",
     Component: RootLayout,
     children: [
-      { index: true,                     Component: HomePage },
-      { path: "about",                   Component: AboutUs },
-      { path: "solutions",               Component: SolutionsPage },
-      { path: "solutions/:id",           Component: SolutionDetailPage },
-      { path: "services",                Component: ServicesPage },
-      { path: "services/:id",            Component: ServiceDetailPage },
-      { path: "team",                    Component: TeamPage },
-      { path: "team/:id",                Component: TeamProfilePage },
-      { path: "projects",                Component: ProjectsPage },
-      { path: "projects/:id",            Component: ProjectDetailPage },
-      { path: "contact",                 Component: ContactRoute },
-      { path: "*",                       Component: NotFound },
+      { index: true, Component: HomePage },
+      { path: "about", Component: AboutUs },
+      { path: "solutions", Component: SolutionsPage },
+      { path: "solutions/:id", Component: SolutionDetailPage },
+      { path: "services", Component: ServicesPage },
+      { path: "services/:id", Component: ServiceDetailPage },
+      { path: "team", Component: TeamPage },
+      { path: "team/:id", Component: TeamProfilePage },
+      { path: "projects", Component: ProjectsPage },
+      { path: "projects/:id", Component: ProjectDetailPage },
+      { path: "contact", Component: ContactRoute },
+      { path: "*", Component: NotFound },
     ],
   },
 ]);
