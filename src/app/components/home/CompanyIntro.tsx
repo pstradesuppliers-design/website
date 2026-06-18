@@ -50,7 +50,7 @@ export function CompanyIntro() {
               style={{ background: "#049DBF" }}
             >
               <span className="text-2xl font-black text-white" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>18+</span>
-              <span className="text-[9px] text-white/80 text-center leading-tight">Years<br/>Experience</span>
+              <span className="text-[9px] text-white/80 text-center leading-tight"> Years<br/>Combined<br/>Experience</span>
             </div>
           </div>
 
