@@ -128,7 +128,7 @@ function NavItemRow({ item, depth = 0 }: { item: NavItem; depth?: number }) {
         </span>
         {item.description && depth === 0 && (
           <span className="text-xs text-muted-foreground/60 hidden lg:block ml-2 max-w-48 truncate">
-            — {item.description}
+             {item.description}
           </span>
         )}
       </div>
@@ -189,7 +189,7 @@ export function NavigationView() {
         <div className="rounded border border-purple-400/30 overflow-hidden" style={{ maxWidth: 400 }}>
           <div className="bg-purple-400/10 border-b border-purple-400/30 px-4 py-3">
             <span className="text-xs text-purple-300" style={{ fontFamily: "Space Mono, monospace" }}>
-              /admin — AUTHENTICATED ONLY
+              /admin  AUTHENTICATED ONLY
             </span>
           </div>
           <div className="divide-y divide-border/30">

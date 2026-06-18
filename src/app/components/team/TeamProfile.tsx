@@ -209,7 +209,7 @@ export function TeamProfile({ member, onBack, onUpdate }: TeamProfileProps) {
           className="px-6 sm:px-8 py-2 text-xs font-semibold text-center"
           style={{ background: "#fef3c7", color: "#92400e" }}
         >
-          Edit mode active — all fields are now editable. Click "Save Changes" when done.
+          Edit mode active  all fields are now editable. Click "Save Changes" when done.
         </div>
       )}
 

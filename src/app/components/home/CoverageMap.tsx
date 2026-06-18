@@ -72,7 +72,7 @@ export function CoverageMap() {
             <span style={{ color: "#84BF49" }}>All 7 Provinces</span>
           </h2>
           <p className="text-gray-500 mt-4 leading-relaxed">
-            With field teams and project experience in every province of Nepal — from the Terai plains to the high Himalaya — we can mobilise on-site anywhere in the country.
+            With field teams and project experience in every province of Nepal  from the Terai plains to the high Himalaya  we can mobilise on-site anywhere in the country.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export function CoverageMap() {
             <div className="flex items-center gap-2 mb-4">
               <div className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#84BF49" }} />
               <span className="text-xs font-semibold text-gray-500">
-                Active presence — {totalProjects}+ completed installations
+                Active presence  {totalProjects}+ completed installations
               </span>
             </div>
             <img
@@ -157,10 +157,10 @@ export function CoverageMap() {
               <CheckCircle size={18} className="flex-shrink-0 mt-0.5" style={{ color: "#049DBF" }} />
               <div>
                 <p className="text-sm font-bold text-gray-800 mb-0.5" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
-                  Nationwide reach — all 7 provinces
+                  Nationwide reach  all 7 provinces
                 </p>
                 <p className="text-xs text-gray-500">
-                  From Kathmandu Valley rooftops to remote Himalayan villages — our engineers and technicians operate across every province of Nepal.
+                  From Kathmandu Valley rooftops to remote Himalayan villages  our engineers and technicians operate across every province of Nepal.
                 </p>
               </div>
             </div>

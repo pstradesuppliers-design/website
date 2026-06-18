@@ -264,7 +264,7 @@ function TableCard({ table }: { table: Table }) {
                   </span>
                 ))}
                 {col.note && (
-                  <span className="text-muted-foreground/70 text-[10px] italic mt-0.5">— {col.note}</span>
+                  <span className="text-muted-foreground/70 text-[10px] italic mt-0.5"> {col.note}</span>
                 )}
               </div>
             </div>

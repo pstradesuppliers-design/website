@@ -11,17 +11,17 @@ interface Route {
 
 const routes: Route[] = [
   // Public - Core
-  { pattern: "/", description: "Homepage — hero, highlights, stats", category: "PUBLIC / CORE", color: "text-primary" },
+  { pattern: "/", description: "Homepage  hero, highlights, stats", category: "PUBLIC / CORE", color: "text-primary" },
   { pattern: "/about", description: "Company overview, mission, history, certifications", category: "PUBLIC / CORE", color: "text-primary" },
   { pattern: "/contact", description: "Contact form + embedded Google Map", category: "PUBLIC / CORE", color: "text-primary" },
 
   // Solutions
   { pattern: "/solutions", description: "All solutions listing", category: "SOLUTIONS", color: "text-green-300" },
-  { pattern: "/solutions/:slug", description: "Single solution detail + FAQ section", params: ":slug — solution.slug", category: "SOLUTIONS", color: "text-green-300" },
+  { pattern: "/solutions/:slug", description: "Single solution detail + FAQ section", params: ":slug  solution.slug", category: "SOLUTIONS", color: "text-green-300" },
 
   // Services
   { pattern: "/services", description: "All services listing", category: "SERVICES", color: "text-cyan-300" },
-  { pattern: "/services/:slug", description: "Single service detail + FAQ section", params: ":slug — service.slug", category: "SERVICES", color: "text-cyan-300" },
+  { pattern: "/services/:slug", description: "Single service detail + FAQ section", params: ":slug  service.slug", category: "SERVICES", color: "text-cyan-300" },
 
   // Projects
   { pattern: "/projects", description: "Project portfolio grid", category: "PROJECTS", color: "text-amber-300" },
@@ -32,32 +32,32 @@ const routes: Route[] = [
     category: "PROJECTS",
     color: "text-amber-300",
   },
-  { pattern: "/projects/:slug", description: "Individual project detail page", params: ":slug — project.slug", category: "PROJECTS", color: "text-amber-300" },
+  { pattern: "/projects/:slug", description: "Individual project detail page", params: ":slug  project.slug", category: "PROJECTS", color: "text-amber-300" },
 
   // Team
   { pattern: "/team", description: "All team members grid", category: "TEAM", color: "text-purple-300" },
-  { pattern: "/team/:slug", description: "Individual team member profile", params: ":slug — team_member.slug", category: "TEAM", color: "text-purple-300" },
+  { pattern: "/team/:slug", description: "Individual team member profile", params: ":slug  team_member.slug", category: "TEAM", color: "text-purple-300" },
 
   // Admin
-  { pattern: "/admin", description: "Dashboard overview — stats, quick links", auth: true, category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin", description: "Dashboard overview  stats, quick links", auth: true, category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/login", description: "Admin authentication", auth: false, category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/pages", description: "Manage static pages", auth: true, category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/pages/:id/edit", description: "Edit page content (block editor)", auth: true, params: ":id — page uuid", category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/pages/:id/edit", description: "Edit page content (block editor)", auth: true, params: ":id  page uuid", category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/solutions", description: "List & manage solutions", auth: true, category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/solutions/new", description: "Create new solution", auth: true, category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/solutions/:id/edit", description: "Edit solution + manage its FAQs", auth: true, params: ":id — solution uuid", category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/solutions/:id/edit", description: "Edit solution + manage its FAQs", auth: true, params: ":id  solution uuid", category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/services", description: "List & manage services", auth: true, category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/services/new", description: "Create new service", auth: true, category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/services/:id/edit", description: "Edit service + manage its FAQs", auth: true, params: ":id — service uuid", category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/services/:id/edit", description: "Edit service + manage its FAQs", auth: true, params: ":id  service uuid", category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/projects", description: "List & manage projects", auth: true, category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/projects/new", description: "Create new project + link services/solutions", auth: true, category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/projects/:id/edit", description: "Edit project", auth: true, params: ":id — project uuid", category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/projects/:id/edit", description: "Edit project", auth: true, params: ":id  project uuid", category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/team", description: "List & manage team members", auth: true, category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/team/new", description: "Create team member profile", auth: true, category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/team/:id/edit", description: "Edit team member", auth: true, params: ":id — member uuid", category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/team/:id/edit", description: "Edit team member", auth: true, params: ":id  member uuid", category: "ADMIN", color: "text-slate-300" },
   { pattern: "/admin/contacts", description: "View contact form submissions", auth: true, category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/contacts/:id", description: "View single contact submission", auth: true, params: ":id — submission uuid", category: "ADMIN", color: "text-slate-300" },
-  { pattern: "/admin/media", description: "Media library — upload & manage assets", auth: true, category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/contacts/:id", description: "View single contact submission", auth: true, params: ":id  submission uuid", category: "ADMIN", color: "text-slate-300" },
+  { pattern: "/admin/media", description: "Media library  upload & manage assets", auth: true, category: "ADMIN", color: "text-slate-300" },
 ];
 
 const categoryOrder = ["PUBLIC / CORE", "SOLUTIONS", "SERVICES", "PROJECTS", "TEAM", "ADMIN"];

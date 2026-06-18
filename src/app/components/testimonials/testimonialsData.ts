@@ -39,7 +39,7 @@ export const initialTestimonialsData: Testimonial[] = [
     rating: 5,
     savings: "60% of demand",
     savingsLabel: "covered by solar across 12 buildings",
-    text: "We entrusted P.S. Trade & Suppliers with our entire commercial property portfolio — 12 buildings in Lalitpur. Their project management across all sites was exceptional. The 5-year O&M contract with a 90% performance guarantee gives us the certainty our lenders require. Outstanding partner.",
+    text: "We entrusted P.S. Trade & Suppliers with our entire commercial property portfolio  12 buildings in Lalitpur. Their project management across all sites was exceptional. The 5-year O&M contract with a 90% performance guarantee gives us the certainty our lenders require. Outstanding partner.",
     system: "1.2 MW Portfolio, 12 Sites",
   },
   {
@@ -67,7 +67,7 @@ export const initialTestimonialsData: Testimonial[] = [
     rating: 5,
     savings: "94%",
     savingsLabel: "reduction in LPG consumption",
-    text: "Our hotel was spending NPR 2.4 million a year on LPG for hot water. P.S. Trade & Suppliers designed a solar water heating system that eliminated 94% of that cost. Payback in under 3 years — far better than we expected. Our guests love the sustainability story too.",
+    text: "Our hotel was spending NPR 2.4 million a year on LPG for hot water. P.S. Trade & Suppliers designed a solar water heating system that eliminated 94% of that cost. Payback in under 3 years  far better than we expected. Our guests love the sustainability story too.",
     system: "8,000 L/day Solar Thermal",
   },
   {
@@ -81,7 +81,7 @@ export const initialTestimonialsData: Testimonial[] = [
     rating: 5,
     savings: "NPR 3.2M/yr",
     savingsLabel: "diesel costs eliminated",
-    text: "150 farmer members were paying NPR 3.2 million a year in diesel just to irrigate. P.S. Trade & Suppliers designed individual pump systems for all 10 sites with different borewell depths — not a one-size-fits-all approach. Reliable irrigation has transformed our members' livelihoods.",
+    text: "150 farmer members were paying NPR 3.2 million a year in diesel just to irrigate. P.S. Trade & Suppliers designed individual pump systems for all 10 sites with different borewell depths  not a one-size-fits-all approach. Reliable irrigation has transformed our members' livelihoods.",
     system: "22 kW Solar Irrigation, 10 Pumps",
   },
 ];

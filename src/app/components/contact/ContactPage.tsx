@@ -201,7 +201,7 @@ export function ContactPage({ submissions, onSubmit }: ContactPageProps) {
             className="text-xl max-w-2xl mx-auto"
             style={{ color: "rgba(255,255,255,0.72)", lineHeight: 1.8 }}
           >
-            Whether you're ready to install or just exploring options — our team is here to
+            Whether you're ready to install or just exploring options  our team is here to
             answer questions, arrange a free site survey, and provide a no-obligation quote.
           </p>
         </div>
@@ -377,7 +377,7 @@ export function ContactPage({ submissions, onSubmit }: ContactPageProps) {
                       <textarea
                         value={form.message}
                         onChange={(e) => set("message", e.target.value)}
-                        placeholder="Tell us about your project — location, approximate system size, current energy setup, or any questions you have…"
+                        placeholder="Tell us about your project  location, approximate system size, current energy setup, or any questions you have…"
                         rows={5}
                         className={inputCls}
                         style={{
@@ -439,7 +439,7 @@ export function ContactPage({ submissions, onSubmit }: ContactPageProps) {
               {/* Google Map embed */}
               <div className="rounded-3xl overflow-hidden border" style={{ borderColor: "var(--border)" }}>
                 <iframe
-                  title="P.S. Trade & Suppliers — Head Office, Sano Bharyang-2, Kathmandu"
+                  title="P.S. Trade & Suppliers  Head Office, Sano Bharyang-2, Kathmandu"
                   src={siteSettings.mapEmbed}
                   width="100%"
                   height="320"
@@ -469,7 +469,7 @@ export function ContactPage({ submissions, onSubmit }: ContactPageProps) {
                     Chat on WhatsApp
                   </div>
                   <div className="text-sm" style={{ color: "rgba(255,255,255,0.85)" }}>
-                    Fastest response — typically within 30 minutes during business hours
+                    Fastest response  typically within 30 minutes during business hours
                   </div>
                 </div>
                 <ArrowRight size={20} className="text-white ml-auto flex-shrink-0" />
@@ -497,7 +497,7 @@ export function ContactPage({ submissions, onSubmit }: ContactPageProps) {
                 className="ml-auto text-xs px-3 py-1 rounded-full font-semibold"
                 style={{ background: "var(--brand-secondary-light)", color: "var(--brand-secondary-dark)" }}
               >
-                Session only — connect Supabase to persist
+                Session only  connect Supabase to persist
               </span>
             </div>
             <div className="space-y-3">

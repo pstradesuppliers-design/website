@@ -62,7 +62,7 @@ export const solutions: Solution[] = [
     accentLight: "var(--brand-primary-light)",
     tag: "Most Popular",
     overview: [
-      "On-grid solar systems are the most widely adopted solution for homes and businesses connected to Nepal's national electricity grid (NEA). During daylight hours, your solar panels generate electricity that powers your building directly. Any surplus energy is exported to the grid, and you receive credit on your next utility bill — a process known as net metering.",
+      "On-grid solar systems are the most widely adopted solution for homes and businesses connected to Nepal's national electricity grid (NEA). During daylight hours, your solar panels generate electricity that powers your building directly. Any surplus energy is exported to the grid, and you receive credit on your next utility bill  a process known as net metering.",
       "Without the cost of battery storage, on-grid systems deliver the fastest return on investment of any solar option, typically paying back within 5–7 years. They are ideal for urban and peri-urban locations with reliable grid access and consistent daytime energy consumption.",
     ],
     specs: [
@@ -78,11 +78,11 @@ export const solutions: Solution[] = [
         icon: "TrendingDown",
         title: "Reduce Electricity Bills by Up to 90%",
         description:
-          "Solar generation offsets daytime consumption directly, slashing monthly NEA bills dramatically — often to near zero for well-sized residential systems.",
+          "Solar generation offsets daytime consumption directly, slashing monthly NEA bills dramatically  often to near zero for well-sized residential systems.",
       },
       {
         icon: "RefreshCw",
-        title: "Net Metering — Earn From Excess Power",
+        title: "Net Metering  Earn From Excess Power",
         description:
           "Surplus electricity exported to the NEA grid earns bill credits under Nepal's net metering policy, improving overall system economics.",
       },
@@ -96,7 +96,7 @@ export const solutions: Solution[] = [
         icon: "Leaf",
         title: "Reduce Carbon Emissions",
         description:
-          "Displacing fossil-fuel-generated electricity with clean solar energy directly reduces your carbon footprint — contributing to Nepal's net-zero goals.",
+          "Displacing fossil-fuel-generated electricity with clean solar energy directly reduces your carbon footprint  contributing to Nepal's net-zero goals.",
       },
       {
         icon: "Shield",
@@ -128,7 +128,7 @@ export const solutions: Solution[] = [
         number: "03",
         title: "Net Metering Application",
         description:
-          "We handle the full NEA net metering application on your behalf — paperwork, inspections, and approval — so you don't have to.",
+          "We handle the full NEA net metering application on your behalf  paperwork, inspections, and approval  so you don't have to.",
       },
       {
         number: "04",
@@ -179,7 +179,7 @@ export const solutions: Solution[] = [
       {
         question: "What happens during a power outage if I have an on-grid system?",
         answer:
-          "Standard on-grid (grid-tied) inverters shut down automatically during a grid outage for safety reasons — to protect lineworkers. If backup power during outages is important to you, we recommend adding a battery backup or switching to a hybrid system.",
+          "Standard on-grid (grid-tied) inverters shut down automatically during a grid outage for safety reasons  to protect lineworkers. If backup power during outages is important to you, we recommend adding a battery backup or switching to a hybrid system.",
       },
       {
         question: "How does net metering work in Nepal?",
@@ -194,7 +194,7 @@ export const solutions: Solution[] = [
       {
         question: "Do I need permission from NEA to install on-grid solar?",
         answer:
-          "Yes — you need to apply for a net metering connection with NEA before exporting to the grid. P.S. Trade & Suppliers manages this entire process on your behalf as part of our installation package.",
+          "Yes  you need to apply for a net metering connection with NEA before exporting to the grid. P.S. Trade & Suppliers manages this entire process on your behalf as part of our installation package.",
       },
       {
         question: "How long does the installation process take?",
@@ -217,7 +217,7 @@ export const solutions: Solution[] = [
     accentLight: "var(--brand-green-light)",
     tag: "Rural & Remote",
     overview: [
-      "Nepal's rugged Himalayan geography means millions of households and businesses remain far from the national electricity grid. Off-grid solar systems are the proven answer — delivering clean, reliable power to remote villages, mountain lodges, agricultural sites, and rural health posts without the need for costly grid extension.",
+      "Nepal's rugged Himalayan geography means millions of households and businesses remain far from the national electricity grid. Off-grid solar systems are the proven answer  delivering clean, reliable power to remote villages, mountain lodges, agricultural sites, and rural health posts without the need for costly grid extension.",
       "These systems pair high-efficiency solar panels with lithium-ion or sealed lead-acid battery banks, managed by an intelligent charge controller and inverter. The battery stores energy generated during daylight for use at night or during cloudy periods, ensuring continuous power supply.",
     ],
     specs: [
@@ -233,7 +233,7 @@ export const solutions: Solution[] = [
         icon: "Wifi",
         title: "True Energy Independence",
         description:
-          "No grid connection required. Your system generates, stores, and supplies its own electricity — completely independent of NEA infrastructure.",
+          "No grid connection required. Your system generates, stores, and supplies its own electricity  completely independent of NEA infrastructure.",
       },
       {
         icon: "MapPin",
@@ -245,7 +245,7 @@ export const solutions: Solution[] = [
         icon: "Moon",
         title: "24/7 Power Including Nights",
         description:
-          "Battery storage ensures continuous power through the night and during cloudy days — not just when the sun is shining.",
+          "Battery storage ensures continuous power through the night and during cloudy days  not just when the sun is shining.",
       },
       {
         icon: "DollarSign",
@@ -257,7 +257,7 @@ export const solutions: Solution[] = [
         icon: "Settings",
         title: "Scalable & Expandable",
         description:
-          "Start with a smaller system and add panels or battery capacity as your energy needs grow — without redesigning from scratch.",
+          "Start with a smaller system and add panels or battery capacity as your energy needs grow  without redesigning from scratch.",
       },
       {
         icon: "Cloud",
@@ -271,7 +271,7 @@ export const solutions: Solution[] = [
         number: "01",
         title: "Remote Site Assessment",
         description:
-          "Our engineers conduct a thorough site assessment — including solar resource data, load inventory, and local conditions — to design an accurately sized system.",
+          "Our engineers conduct a thorough site assessment  including solar resource data, load inventory, and local conditions  to design an accurately sized system.",
       },
       {
         number: "02",
@@ -295,7 +295,7 @@ export const solutions: Solution[] = [
         number: "05",
         title: "Installation & Commissioning",
         description:
-          "Trained field technicians install and commission the full system — including wiring, mounting, battery setup, and protection devices.",
+          "Trained field technicians install and commission the full system  including wiring, mounting, battery setup, and protection devices.",
       },
       {
         number: "06",
@@ -344,7 +344,7 @@ export const solutions: Solution[] = [
       {
         question: "What happens during the monsoon when sunlight is limited?",
         answer:
-          "We design systems with the monsoon season in mind — using Nepal-specific solar irradiance data to ensure adequate generation even during the low-sun months of June through August. Battery autonomy is sized to bridge multi-day cloudy periods.",
+          "We design systems with the monsoon season in mind  using Nepal-specific solar irradiance data to ensure adequate generation even during the low-sun months of June through August. Battery autonomy is sized to bridge multi-day cloudy periods.",
       },
       {
         question: "Can I add more capacity later as my energy needs grow?",
@@ -365,14 +365,14 @@ export const solutions: Solution[] = [
     shortTitle: "Solar Water Pump",
     tagline: "Solar-powered irrigation and drinking water pumps for rural and agricultural use.",
     description:
-      "Solar-powered water pumping systems use photovoltaic panels to run submersible or surface pumps — delivering irrigation water, drinking water, and livestock water without diesel fuel or grid electricity.",
+      "Solar-powered water pumping systems use photovoltaic panels to run submersible or surface pumps  delivering irrigation water, drinking water, and livestock water without diesel fuel or grid electricity.",
     heroImage:
       "https://images.unsplash.com/photo-1630672607721-48e0a0187a92?w=1600&h=900&fit=crop&auto=format",
     accentColor: "var(--brand-secondary)",
     accentLight: "var(--brand-secondary-light)",
     tag: "Agriculture & Water",
     overview: [
-      "Water scarcity and high pumping costs are among the most pressing challenges facing Nepal's agriculture sector and rural communities. Solar water pumping systems eliminate dependence on diesel-powered pumps and unreliable grid electricity — using clean solar energy to run efficient DC or AC pumps directly from photovoltaic panels.",
+      "Water scarcity and high pumping costs are among the most pressing challenges facing Nepal's agriculture sector and rural communities. Solar water pumping systems eliminate dependence on diesel-powered pumps and unreliable grid electricity  using clean solar energy to run efficient DC or AC pumps directly from photovoltaic panels.",
       "These systems are engineered for drip irrigation, flood irrigation, livestock watering, drinking water supply for villages, and industrial water requirements. With no fuel costs and minimal maintenance, solar pumps typically pay for themselves within 3–5 years while serving communities reliably for 20+ years.",
     ],
     specs: [
@@ -388,13 +388,13 @@ export const solutions: Solution[] = [
         icon: "Droplets",
         title: "Zero Fuel Costs",
         description:
-          "Replace diesel or petrol with free sunlight. Solar pumps eliminate recurring fuel expenses — the largest operating cost of conventional pumping systems.",
+          "Replace diesel or petrol with free sunlight. Solar pumps eliminate recurring fuel expenses  the largest operating cost of conventional pumping systems.",
       },
       {
         icon: "Sprout",
         title: "Boost Agricultural Productivity",
         description:
-          "Reliable, affordable irrigation enables year-round cultivation and multi-cropping — significantly increasing farm yields and household income.",
+          "Reliable, affordable irrigation enables year-round cultivation and multi-cropping  significantly increasing farm yields and household income.",
       },
       {
         icon: "Volume2",
@@ -406,7 +406,7 @@ export const solutions: Solution[] = [
         icon: "Clock",
         title: "Low Maintenance",
         description:
-          "With no engine, no fuel system, and minimal moving parts, solar pumps require far less maintenance than diesel alternatives — reducing downtime.",
+          "With no engine, no fuel system, and minimal moving parts, solar pumps require far less maintenance than diesel alternatives  reducing downtime.",
       },
       {
         icon: "Waves",
@@ -418,7 +418,7 @@ export const solutions: Solution[] = [
         icon: "Globe",
         title: "Ideal for Off-Grid Agriculture",
         description:
-          "Works in remote farms and fields far from the grid — anywhere the sun shines, crops can be irrigated with clean energy.",
+          "Works in remote farms and fields far from the grid  anywhere the sun shines, crops can be irrigated with clean energy.",
       },
     ],
     process: [
@@ -450,7 +450,7 @@ export const solutions: Solution[] = [
         number: "05",
         title: "Installation & Testing",
         description:
-          "Technicians install the pump, submersible cable, panels, and VFD/control unit — then test for correct flow rate, pressure, and protection settings.",
+          "Technicians install the pump, submersible cable, panels, and VFD/control unit  then test for correct flow rate, pressure, and protection settings.",
       },
       {
         number: "06",
@@ -494,7 +494,7 @@ export const solutions: Solution[] = [
       {
         question: "What is the difference between a submersible and a surface pump?",
         answer:
-          "Submersible pumps are installed inside the borewell or deep water source and push water up. Surface pumps sit above ground and draw water up by suction — suitable for shallow wells and ponds (typically up to 8 m suction head). We recommend the right type based on your water source depth.",
+          "Submersible pumps are installed inside the borewell or deep water source and push water up. Surface pumps sit above ground and draw water up by suction  suitable for shallow wells and ponds (typically up to 8 m suction head). We recommend the right type based on your water source depth.",
       },
       {
         question: "Can solar pumps be used for drip and sprinkler irrigation?",
@@ -509,7 +509,7 @@ export const solutions: Solution[] = [
       {
         question: "How much water can a solar pump deliver per day?",
         answer:
-          "Output depends on pump size, solar irradiance, and head. As a guide, a 5 kW solar pump at 50 m head can deliver approximately 25–40 m³ of water per day in Nepal's average solar conditions — sufficient to irrigate 2–5 hectares depending on crop type.",
+          "Output depends on pump size, solar irradiance, and head. As a guide, a 5 kW solar pump at 50 m head can deliver approximately 25–40 m³ of water per day in Nepal's average solar conditions  sufficient to irrigate 2–5 hectares depending on crop type.",
       },
     ],
   },
@@ -520,15 +520,15 @@ export const solutions: Solution[] = [
     shortTitle: "Solar Water Heater",
     tagline: "Rooftop thermal systems for hot water without the electricity bill.",
     description:
-      "Solar water heating systems use solar thermal collectors to capture the sun's heat and transfer it to water — providing free hot water for domestic, commercial, and industrial applications without electricity or gas.",
+      "Solar water heating systems use solar thermal collectors to capture the sun's heat and transfer it to water  providing free hot water for domestic, commercial, and industrial applications without electricity or gas.",
     heroImage:
       "https://images.unsplash.com/photo-1724041875334-0a6397111c7e?w=1600&h=900&fit=crop&auto=format",
     accentColor: "#f59e0b",
     accentLight: "#fef3c7",
     tag: "Thermal Energy",
     overview: [
-      "Solar water heaters are among the most cost-effective renewable energy technologies available — delivering hot water at near-zero operating cost by harnessing the sun's thermal energy. Unlike solar PV panels that generate electricity, solar water heaters directly capture heat from sunlight using evacuated tube or flat-plate collectors.",
-      "In Nepal's climate — with over 300 sunny days per year in most regions — solar water heaters can meet 70–90% of a household's hot water needs year-round. Hotels, hospitals, and industrial facilities with large hot water demands benefit even more dramatically, with payback periods as short as 2–4 years.",
+      "Solar water heaters are among the most cost-effective renewable energy technologies available  delivering hot water at near-zero operating cost by harnessing the sun's thermal energy. Unlike solar PV panels that generate electricity, solar water heaters directly capture heat from sunlight using evacuated tube or flat-plate collectors.",
+      "In Nepal's climate  with over 300 sunny days per year in most regions  solar water heaters can meet 70–90% of a household's hot water needs year-round. Hotels, hospitals, and industrial facilities with large hot water demands benefit even more dramatically, with payback periods as short as 2–4 years.",
     ],
     specs: [
       { label: "Collector Types", value: "Evacuated Tube / Flat Plate" },
@@ -543,13 +543,13 @@ export const solutions: Solution[] = [
         icon: "Flame",
         title: "Slash Water Heating Costs by 80%",
         description:
-          "Water heating accounts for 20–30% of a household's energy bill. Solar water heaters eliminate the vast majority of this cost — often within 2–4 years.",
+          "Water heating accounts for 20–30% of a household's energy bill. Solar water heaters eliminate the vast majority of this cost  often within 2–4 years.",
       },
       {
         icon: "Thermometer",
         title: "Consistent Hot Water Supply",
         description:
-          "Insulated storage tanks retain heat for 24+ hours, ensuring hot water is available in the morning and evening — not just when the sun is out.",
+          "Insulated storage tanks retain heat for 24+ hours, ensuring hot water is available in the morning and evening  not just when the sun is out.",
       },
       {
         icon: "Building2",
@@ -561,7 +561,7 @@ export const solutions: Solution[] = [
         icon: "Wind",
         title: "Works in Cold Mountain Climates",
         description:
-          "Evacuated tube collectors are specifically designed to work efficiently even in sub-zero ambient temperatures — ideal for Nepal's high-altitude regions.",
+          "Evacuated tube collectors are specifically designed to work efficiently even in sub-zero ambient temperatures  ideal for Nepal's high-altitude regions.",
       },
       {
         icon: "Wrench",
@@ -573,7 +573,7 @@ export const solutions: Solution[] = [
         icon: "Leaf",
         title: "Reduce LPG & Electric Geysers",
         description:
-          "Replace LPG gas geysers or electric immersion heaters with solar thermal — cutting both energy costs and indoor air pollution from combustion.",
+          "Replace LPG gas geysers or electric immersion heaters with solar thermal  cutting both energy costs and indoor air pollution from combustion.",
       },
     ],
     process: [
@@ -593,13 +593,13 @@ export const solutions: Solution[] = [
         number: "03",
         title: "System Design",
         description:
-          "A complete system schematic is produced — including collector placement, pipe routing, pump (for forced-circulation systems), and backup heater integration.",
+          "A complete system schematic is produced  including collector placement, pipe routing, pump (for forced-circulation systems), and backup heater integration.",
       },
       {
         number: "04",
         title: "Installation",
         description:
-          "Our plumbing and solar technicians install the collectors, insulated pipes, storage tank, and controls — typically within 1–2 days for residential systems.",
+          "Our plumbing and solar technicians install the collectors, insulated pipes, storage tank, and controls  typically within 1–2 days for residential systems.",
       },
       {
         number: "05",
@@ -644,12 +644,12 @@ export const solutions: Solution[] = [
       {
         question: "Will a solar water heater work in Nepal's monsoon season?",
         answer:
-          "Solar water heaters still generate useful heat on overcast and lightly cloudy days — just at reduced efficiency. All our systems include an optional electric backup element that activates automatically when the solar input is insufficient, ensuring you always have hot water.",
+          "Solar water heaters still generate useful heat on overcast and lightly cloudy days  just at reduced efficiency. All our systems include an optional electric backup element that activates automatically when the solar input is insufficient, ensuring you always have hot water.",
       },
       {
         question: "What is the difference between evacuated tube and flat-plate collectors?",
         answer:
-          "Evacuated tube collectors use glass vacuum tubes that insulate the absorber from ambient temperature — making them significantly more effective in cold weather and on cloudy days. Flat-plate collectors are simpler and cheaper but lose more heat in cold or windy conditions. We recommend evacuated tubes for Nepal's hilly and mountain regions.",
+          "Evacuated tube collectors use glass vacuum tubes that insulate the absorber from ambient temperature  making them significantly more effective in cold weather and on cloudy days. Flat-plate collectors are simpler and cheaper but lose more heat in cold or windy conditions. We recommend evacuated tubes for Nepal's hilly and mountain regions.",
       },
       {
         question: "How large a system do I need for my family?",
@@ -659,12 +659,12 @@ export const solutions: Solution[] = [
       {
         question: "Can I integrate a solar water heater with my existing electric geyser?",
         answer:
-          "Yes — this is the most common installation. The solar storage tank pre-heats the water before it enters your existing electric geyser. In most cases, the geyser rarely needs to activate, saving up to 80% on your water heating electricity costs immediately.",
+          "Yes  this is the most common installation. The solar storage tank pre-heats the water before it enters your existing electric geyser. In most cases, the geyser rarely needs to activate, saving up to 80% on your water heating electricity costs immediately.",
       },
       {
         question: "Is the system pressurised? Does it work with rooftop gravity-fed water?",
         answer:
-          "We supply both pressurised and non-pressurised systems. Non-pressurised systems work perfectly with rooftop gravity-fed water tanks — the most common setup in Nepali homes and hotels. Pressurised systems are used where mains pressure is available.",
+          "We supply both pressurised and non-pressurised systems. Non-pressurised systems work perfectly with rooftop gravity-fed water tanks  the most common setup in Nepali homes and hotels. Pressurised systems are used where mains pressure is available.",
       },
     ],
   },
@@ -675,15 +675,15 @@ export const solutions: Solution[] = [
     shortTitle: "Inverter Backup",
     tagline: "Uninterrupted power during outages and load shedding for homes and businesses.",
     description:
-      "Inverter backup systems provide seamless, instant power when the grid fails — protecting homes, businesses, and critical equipment from Nepal's frequent load-shedding and grid outages through intelligently managed battery storage.",
+      "Inverter backup systems provide seamless, instant power when the grid fails  protecting homes, businesses, and critical equipment from Nepal's frequent load-shedding and grid outages through intelligently managed battery storage.",
     heroImage:
       "https://images.unsplash.com/photo-1742899273038-67ff67477663?w=1600&h=900&fit=crop&auto=format",
     accentColor: "#8b5cf6",
     accentLight: "#f5f3ff",
     tag: "Power Backup",
     overview: [
-      "Despite significant improvements to Nepal's grid, power outages and load-shedding remain a reality across much of the country — disrupting households, damaging sensitive equipment, and costing businesses real money in lost productivity. Inverter backup systems are the immediate, practical solution.",
-      "Modern pure sine wave inverters paired with lithium-ion or sealed lead-acid batteries provide seamless switchover in milliseconds — computers, televisions, lights, and appliances continue operating without interruption. Whether you need 2 hours of backup or 24-hour autonomy, we design systems scaled precisely to your critical loads and backup duration requirements.",
+      "Despite significant improvements to Nepal's grid, power outages and load-shedding remain a reality across much of the country  disrupting households, damaging sensitive equipment, and costing businesses real money in lost productivity. Inverter backup systems are the immediate, practical solution.",
+      "Modern pure sine wave inverters paired with lithium-ion or sealed lead-acid batteries provide seamless switchover in milliseconds  computers, televisions, lights, and appliances continue operating without interruption. Whether you need 2 hours of backup or 24-hour autonomy, we design systems scaled precisely to your critical loads and backup duration requirements.",
     ],
     specs: [
       { label: "Inverter Types", value: "Pure Sine Wave / Hybrid" },
@@ -698,19 +698,19 @@ export const solutions: Solution[] = [
         icon: "Zap",
         title: "Instant, Seamless Switchover",
         description:
-          "Pure sine wave inverters switch from grid to battery in under 10 milliseconds — fast enough that computers, routers, and sensitive electronics never notice the grid has failed.",
+          "Pure sine wave inverters switch from grid to battery in under 10 milliseconds  fast enough that computers, routers, and sensitive electronics never notice the grid has failed.",
       },
       {
         icon: "Clock",
         title: "Hours to Days of Backup",
         description:
-          "Battery capacity is sized to your backup duration requirement — from 2 hours for essential lights and phones, to 24+ hours for business-critical operations.",
+          "Battery capacity is sized to your backup duration requirement  from 2 hours for essential lights and phones, to 24+ hours for business-critical operations.",
       },
       {
         icon: "Sun",
         title: "Optional Solar Charging",
         description:
-          "Hybrid inverters can charge batteries from solar panels during the day, reducing grid dependence and extending backup duration — combining the best of both technologies.",
+          "Hybrid inverters can charge batteries from solar panels during the day, reducing grid dependence and extending backup duration  combining the best of both technologies.",
       },
       {
         icon: "Shield",
@@ -728,7 +728,7 @@ export const solutions: Solution[] = [
         icon: "Settings",
         title: "Scalable & Expandable",
         description:
-          "Modular designs allow battery capacity to be expanded later. Inverters can be paralleled for larger loads — making your investment future-proof.",
+          "Modular designs allow battery capacity to be expanded later. Inverters can be paralleled for larger loads  making your investment future-proof.",
       },
     ],
     process: [
@@ -748,7 +748,7 @@ export const solutions: Solution[] = [
         number: "03",
         title: "System Design & Wiring Diagram",
         description:
-          "A complete electrical schematic is produced for approval — showing inverter placement, battery configuration, changeover arrangement, and protection devices.",
+          "A complete electrical schematic is produced for approval  showing inverter placement, battery configuration, changeover arrangement, and protection devices.",
       },
       {
         number: "04",
@@ -799,7 +799,7 @@ export const solutions: Solution[] = [
       {
         question: "What is the difference between a pure sine wave and modified sine wave inverter?",
         answer:
-          "Pure sine wave inverters produce the same clean AC waveform as grid electricity — safe for all appliances including computers, medical equipment, and variable-speed motors. Modified sine wave inverters are cheaper but can damage sensitive electronics, cause motors to overheat, and produce audible hum from appliances. We exclusively supply pure sine wave inverters.",
+          "Pure sine wave inverters produce the same clean AC waveform as grid electricity  safe for all appliances including computers, medical equipment, and variable-speed motors. Modified sine wave inverters are cheaper but can damage sensitive electronics, cause motors to overheat, and produce audible hum from appliances. We exclusively supply pure sine wave inverters.",
       },
       {
         question: "How long will my backup last during a power outage?",
@@ -819,7 +819,7 @@ export const solutions: Solution[] = [
       {
         question: "Is it possible to upgrade my existing inverter system?",
         answer:
-          "In many cases, yes. We can assess your existing inverter and, if compatible, add lithium-ion batteries to replace aging lead-acid units — often doubling usable capacity in the same space. Alternatively, we can replace the inverter with a modern hybrid unit that adds solar charging capability.",
+          "In many cases, yes. We can assess your existing inverter and, if compatible, add lithium-ion batteries to replace aging lead-acid units  often doubling usable capacity in the same space. Alternatively, we can replace the inverter with a modern hybrid unit that adds solar charging capability.",
       },
     ],
   },

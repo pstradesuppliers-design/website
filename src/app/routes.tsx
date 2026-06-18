@@ -206,13 +206,13 @@ function NotFound() {
 // ── Router ────────────────────────────────────────────────────────────
 export const router = createBrowserRouter([
   {
-    // Admin — full-screen layout (no site Navbar/Footer)
+    // Admin  full-screen layout (no site Navbar/Footer)
     path: "/admin",
     Component: AdminLayout,
     children: [{ index: true, Component: AdminRoute }],
   },
   {
-    // Public site — shared Navbar + Footer layout
+    // Public site  shared Navbar + Footer layout
     path: "/",
     Component: RootLayout,
     children: [

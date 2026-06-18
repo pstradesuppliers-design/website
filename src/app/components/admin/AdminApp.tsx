@@ -66,7 +66,7 @@ export function AdminApp({ onExit }: AdminAppProps) {
         />
       )}
 
-      {/* Sidebar — desktop always visible, mobile as overlay */}
+      {/* Sidebar  desktop always visible, mobile as overlay */}
       <div
         className={`fixed lg:relative z-50 h-full transition-transform duration-300 lg:translate-x-0 ${mobileSidebarOpen ? "translate-x-0" : "-translate-x-full"}`}
       >

@@ -26,10 +26,10 @@ const recentProjects = [
 ];
 
 const alerts = [
-  { msg: "Inverter fault — Westgate Site 3", type: "error", time: "12 min ago" },
-  { msg: "Battery bank at 85% capacity — Kisumu", type: "warning", time: "1 hr ago" },
-  { msg: "System check passed — Mombasa Port", type: "success", time: "3 hr ago" },
-  { msg: "Maintenance due in 7 days — Eldoret", type: "warning", time: "Today" },
+  { msg: "Inverter fault  Westgate Site 3", type: "error", time: "12 min ago" },
+  { msg: "Battery bank at 85% capacity  Kisumu", type: "warning", time: "1 hr ago" },
+  { msg: "System check passed  Mombasa Port", type: "success", time: "3 hr ago" },
+  { msg: "Maintenance due in 7 days  Eldoret", type: "warning", time: "Today" },
 ];
 
 const sidebarItems = [
@@ -121,7 +121,7 @@ export function DSDashboard() {
           <div className="bg-white border-b border-border px-5 h-12 flex items-center justify-between flex-shrink-0">
             <div>
               <p className="text-sm font-bold text-foreground" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>Dashboard</p>
-              <p className="text-xs text-muted-foreground">Good morning, Dr. Osei — Friday, 12 Jun 2026</p>
+              <p className="text-xs text-muted-foreground">Good morning, Dr. Osei  Friday, 12 Jun 2026</p>
             </div>
             <div className="flex items-center gap-2">
               <div className="relative">

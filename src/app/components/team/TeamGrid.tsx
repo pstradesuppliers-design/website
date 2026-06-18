@@ -61,7 +61,7 @@ export function TeamGrid({ members, onSelectMember }: TeamGridProps) {
             style={{ color: "rgba(255,255,255,0.72)", lineHeight: 1.8 }}
           >
             Engineers, consultants, logistics specialists, and field technicians
-            — united by a shared mission to deliver world-class renewable energy
+             united by a shared mission to deliver world-class renewable energy
             across all seven provinces of Nepal.
           </p>
         </div>

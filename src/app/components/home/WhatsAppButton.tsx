@@ -131,7 +131,7 @@ export function WhatsAppButton() {
         )}
       </button>
 
-      {/* Pulse ring — only when closed */}
+      {/* Pulse ring  only when closed */}
       {!open && (
         <div
           className="fixed bottom-6 right-4 sm:right-6 z-40 w-14 h-14 rounded-full pointer-events-none animate-ping"

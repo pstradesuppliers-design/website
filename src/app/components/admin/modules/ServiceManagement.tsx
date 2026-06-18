@@ -61,7 +61,7 @@ export function ServiceManagement() {
     <div className="p-6">
       <div className="mb-6">
         <h2 style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>Service Management</h2>
-        <p className="text-sm mt-1" style={{ color: "var(--muted-foreground)" }}>{servicesData.length} services — click Edit to manage content</p>
+        <p className="text-sm mt-1" style={{ color: "var(--muted-foreground)" }}>{servicesData.length} services  click Edit to manage content</p>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-4 mb-6">

@@ -234,8 +234,8 @@ export function ERDView() {
         {[
           "Projects ↔ Solutions and Projects ↔ Services are many-to-many via pivot tables, allowing any project to reference multiple solutions and services.",
           "FAQs use a polymorphic entity_type + entity_id pattern so one table serves both Solutions and Services without separate FK columns.",
-          "contact_submissions.service_interest is a nullable FK — the contact form can optionally capture service interest.",
-          "All slugs are UNIQUE and indexed — they drive SEO-friendly URLs and dynamic routing.",
+          "contact_submissions.service_interest is a nullable FK  the contact form can optionally capture service interest.",
+          "All slugs are UNIQUE and indexed  they drive SEO-friendly URLs and dynamic routing.",
           "jsonb content field in pages allows flexible block-based page building without schema migrations.",
         ].map((n, i) => (
           <p key={i} className="text-xs text-muted-foreground leading-relaxed">

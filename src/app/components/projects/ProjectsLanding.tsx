@@ -93,7 +93,7 @@ export function ProjectsLanding({ onSelectProject }: ProjectsLandingProps) {
             <span style={{ color: "var(--brand-primary)" }}>Nepal's Seven Provinces</span>
           </h1>
           <p className="text-xl max-w-2xl mx-auto mb-10" style={{ color: "rgba(255,255,255,0.72)", lineHeight: 1.8 }}>
-            From remote mountain villages to industrial parks — explore our portfolio of{" "}
+            From remote mountain villages to industrial parks  explore our portfolio of{" "}
             {projects.length} completed and ongoing renewable energy projects.
           </p>
 

@@ -48,7 +48,7 @@ export function Footer({ onAdmin }: { onAdmin?: () => void }) {
       {/* Main footer */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-          {/* Brand col — spans 2 */}
+          {/* Brand col  spans 2 */}
           <div className="col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
               <img
@@ -69,7 +69,7 @@ export function Footer({ onAdmin }: { onAdmin?: () => void }) {
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5" style={{ color: "rgba(255,255,255,0.55)" }}>
-              Nepal's trusted renewable energy company — delivering solar, off-grid, water pumping, and backup systems across all 7 provinces since 2080.
+              Nepal's trusted renewable energy company  delivering solar, off-grid, water pumping, and backup systems across all 7 provinces since 2080.
             </p>
 
             {/* Socials */}

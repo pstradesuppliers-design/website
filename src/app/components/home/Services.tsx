@@ -32,7 +32,7 @@ export function Services() {
             </h2>
           </div>
           <p className="text-gray-400 text-sm max-w-xs">
-            From the first site visit to decades of monitoring — we're with you at every step.
+            From the first site visit to decades of monitoring  we're with you at every step.
           </p>
         </div>
 

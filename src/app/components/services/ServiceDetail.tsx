@@ -203,7 +203,7 @@ export function ServiceDetail({ service, onBack, onContact }: ServiceDetailProps
             </div>
             <h2 className="mb-4">Why Work With Us?</h2>
             <p className="max-w-xl mx-auto" style={{ color: "var(--muted-foreground)" }}>
-              What sets our {service.shortTitle.toLowerCase()} service apart — in quality, reliability, and long-term value.
+              What sets our {service.shortTitle.toLowerCase()} service apart  in quality, reliability, and long-term value.
             </p>
           </div>
 
@@ -303,7 +303,7 @@ export function ServiceDetail({ service, onBack, onContact }: ServiceDetailProps
             </div>
             <h2 className="text-white mb-4">See Our Work in Action</h2>
             <p className="max-w-xl mx-auto" style={{ color: "rgba(255,255,255,0.6)" }}>
-              Real engagements from our portfolio — demonstrating the depth and breadth of our {service.shortTitle.toLowerCase()} capability across Nepal.
+              Real engagements from our portfolio  demonstrating the depth and breadth of our {service.shortTitle.toLowerCase()} capability across Nepal.
             </p>
           </div>
 

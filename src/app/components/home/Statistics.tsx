@@ -128,9 +128,9 @@ export function Statistics() {
           style={{ background: "rgba(4,157,191,0.08)", border: "1px solid rgba(4,157,191,0.2)" }}
         >
           <p className="text-lg text-white font-semibold italic mb-3" style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
-            "Renewable energy isn't just about cutting electricity bills — it's about securing energy independence for every Nepali."
+            "Renewable energy isn't just about cutting electricity bills  it's about securing energy independence for every Nepali."
           </p>
-          <p className="text-sm" style={{ color: "#049DBF" }}>— Er. Prashant Bajracharya, Managing Director, P.S. Trade and Suppliers</p>
+          <p className="text-sm" style={{ color: "#049DBF" }}> Er. Prashant Bajracharya, Managing Director, P.S. Trade and Suppliers</p>
         </div>
       </div>
     </section>

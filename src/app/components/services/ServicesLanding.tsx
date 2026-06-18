@@ -76,7 +76,7 @@ export function ServicesLanding({ onSelectService }: ServicesLandingProps) {
             style={{ color: "rgba(255,255,255,0.72)", lineHeight: 1.8 }}
           >
             From initial energy consulting and equipment procurement through to
-            precision engineering and long-term asset management — P.S. Trade
+            precision engineering and long-term asset management  P.S. Trade
             &amp; Suppliers is your end-to-end partner across Nepal.
           </p>
         </div>
@@ -173,7 +173,7 @@ export function ServicesLanding({ onSelectService }: ServicesLandingProps) {
               </h3>
               <p className="text-sm" style={{ color: "rgba(255,255,255,0.75)" }}>
                 Many clients engage us for consulting, procurement, and
-                engineering together — as a fully managed project.
+                engineering together  as a fully managed project.
               </p>
             </div>
             <button
@@ -207,8 +207,8 @@ export function ServicesLanding({ onSelectService }: ServicesLandingProps) {
               </div>
               <h2 className="mb-6">The Advantage of a Single Expert Partner</h2>
               <p className="mb-4" style={{ color: "var(--muted-foreground)", lineHeight: 1.8 }}>
-                Managing multiple contractors — a consultant, a supplier, an
-                installer, and a maintenance provider — is costly, complex, and
+                Managing multiple contractors  a consultant, a supplier, an
+                installer, and a maintenance provider  is costly, complex, and
                 creates accountability gaps. When something goes wrong, each
                 contractor points to another.
               </p>
@@ -221,7 +221,7 @@ export function ServicesLanding({ onSelectService }: ServicesLandingProps) {
                 {[
                   "One contract, one point of accountability",
                   "Seamless handover between service phases",
-                  "In-house engineers — no sub-contractor risk",
+                  "In-house engineers  no sub-contractor risk",
                   "Nationwide presence across all 7 provinces",
                 ].map((item) => (
                   <div key={item} className="flex items-start gap-3">

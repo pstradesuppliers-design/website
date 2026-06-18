@@ -117,7 +117,7 @@ export function ProjectDetail({ project, onBack, onSelectProject, onContact }: P
       <section className="py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 grid lg:grid-cols-3 gap-12">
 
-          {/* Left — description */}
+          {/* Left  description */}
           <div className="lg:col-span-2 space-y-10">
 
             {/* Description */}
@@ -168,7 +168,7 @@ export function ProjectDetail({ project, onBack, onSelectProject, onContact }: P
             </div>
           </div>
 
-          {/* Right — meta sidebar */}
+          {/* Right  meta sidebar */}
           <div className="space-y-5">
 
             {/* Project details card */}

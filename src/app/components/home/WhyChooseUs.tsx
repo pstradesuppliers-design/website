@@ -4,7 +4,7 @@ const reasons = [
   {
     icon: ShieldCheck,
     title: "Nepal Engineering Council Registered",
-    desc: "Registered Member of the Nepal Engineering Council ('A' Electrical) — every installation meets professional licensing requirements.",
+    desc: "Registered Member of the Nepal Engineering Council ('A' Electrical)  every installation meets professional licensing requirements.",
     color: "#049DBF",
     bg: "#e6f6fa",
   },
@@ -25,7 +25,7 @@ const reasons = [
   {
     icon: Zap,
     title: "Full-Cycle Delivery",
-    desc: "Procurement, engineering, consulting, and asset management under one company — from feasibility to long-term asset management.",
+    desc: "Procurement, engineering, consulting, and asset management under one company  from feasibility to long-term asset management.",
     color: "#049DBF",
     bg: "#e6f6fa",
   },
@@ -39,7 +39,7 @@ const reasons = [
   {
     icon: Award,
     title: "Quality & Sustainability",
-    desc: "We prioritise eco-friendly materials and certified suppliers — delivering high-quality, sustainable energy solutions tailored to each client.",
+    desc: "We prioritise eco-friendly materials and certified suppliers  delivering high-quality, sustainable energy solutions tailored to each client.",
     color: "#F27127",
     bg: "#fef0e6",
   },
@@ -62,7 +62,7 @@ export function WhyChooseUs() {
             <span style={{ color: "#049DBF" }}>Difference</span>
           </h2>
           <p className="text-gray-500 mt-4 leading-relaxed">
-            P.S. Trade and Suppliers blends reliable commodity trading with full-cycle solar EPC delivery — under one roof, across all 7 provinces of Nepal.
+            P.S. Trade and Suppliers blends reliable commodity trading with full-cycle solar EPC delivery  under one roof, across all 7 provinces of Nepal.
           </p>
         </div>
 

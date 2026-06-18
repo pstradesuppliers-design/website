@@ -121,7 +121,7 @@ export function WebsiteSettings() {
           <>
             <Field label="SEO Page Title">
               <input type="text" value={draft.seoTitle} onChange={(e) => set("seoTitle", e.target.value)} className={inp} style={inpStyle} />
-              <p className="text-xs mt-1" style={{ color: "var(--muted-foreground)" }}>{draft.seoTitle.length}/60 chars — keep under 60 for best Google display</p>
+              <p className="text-xs mt-1" style={{ color: "var(--muted-foreground)" }}>{draft.seoTitle.length}/60 chars  keep under 60 for best Google display</p>
             </Field>
             <Field label="Meta Description">
               <textarea value={draft.seoDescription} onChange={(e) => set("seoDescription", e.target.value)} rows={3} className={inp} style={{ ...inpStyle, resize: "none" }} />
@@ -131,7 +131,7 @@ export function WebsiteSettings() {
               <input type="text" value={draft.seoKeywords} onChange={(e) => set("seoKeywords", e.target.value)} className={inp} style={inpStyle} />
             </Field>
             <ImageUploader
-              label="Social Share Image (OG Image) — 1200×630px recommended"
+              label="Social Share Image (OG Image)  1200×630px recommended"
               value={draft.seoImage}
               onChange={(url) => set("seoImage", url)}
               aspectRatio="1200/630"

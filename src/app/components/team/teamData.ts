@@ -60,7 +60,7 @@ export const initialTeamData: TeamMember[] = [
     ],
     experience: [
       { role: "Managing Director", company: "P.S. Trade and Suppliers Pvt. Ltd.", duration: "2015 – Present", description: "Leads all operations, business development, and project delivery across the company's solar EPC and commodity trading divisions." },
-      { role: "Project Manager — Solar Irrigation & Drinking Water", company: "AEPC", duration: "2012 – 2015", description: "Managed 300+ solar irrigation and drinking water sites nationwide under AEPC programmes." },
+      { role: "Project Manager  Solar Irrigation & Drinking Water", company: "AEPC", duration: "2012 – 2015", description: "Managed 300+ solar irrigation and drinking water sites nationwide under AEPC programmes." },
       { role: "Senior Solar Business Expert", company: "SunFarmer Nepal / Sipradi Energy", duration: "2008 – 2012", description: "Led commercial solar project development and institutional sales across Nepal." },
     ],
     projects: [

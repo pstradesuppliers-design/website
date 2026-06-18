@@ -90,7 +90,7 @@ export function SolutionsLanding({ onSelectSolution }: SolutionsLandingProps) {
             style={{ color: "rgba(255,255,255,0.72)", lineHeight: 1.8 }}
           >
             From grid-tied solar to off-grid installations, solar pumping to
-            battery backup — P.S. Trade &amp; Suppliers delivers the complete
+            battery backup  P.S. Trade &amp; Suppliers delivers the complete
             spectrum of renewable energy solutions across Nepal.
           </p>
         </div>

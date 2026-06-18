@@ -203,7 +203,7 @@ export function FAQManagement() {
           <div className="rounded-2xl p-6 w-full max-w-xl shadow-2xl" style={{ background: "var(--card)", border: "1px solid var(--border)" }}>
             <div className="flex items-center justify-between mb-5">
               <h4 style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>
-                {editing.question ? "Edit" : "Add"} FAQ — {editing.parentTitle}
+                {editing.question ? "Edit" : "Add"} FAQ  {editing.parentTitle}
               </h4>
               <button onClick={() => setEditing(null)}><X size={18} style={{ color: "var(--muted-foreground)" }} /></button>
             </div>

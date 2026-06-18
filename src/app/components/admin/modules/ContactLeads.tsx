@@ -115,7 +115,7 @@ export function ContactLeads() {
         <div className="fixed inset-0 z-[200] flex items-center justify-center p-4" style={{ background: "rgba(0,0,0,0.5)", backdropFilter: "blur(4px)" }}>
           <div className="rounded-2xl p-6 w-full max-w-lg shadow-2xl" style={{ background: "var(--card)", border: "1px solid var(--border)" }}>
             <div className="flex items-center justify-between mb-5">
-              <h4 style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>Lead Details — {selected.id}</h4>
+              <h4 style={{ fontFamily: "Plus Jakarta Sans, sans-serif" }}>Lead Details  {selected.id}</h4>
               <button onClick={() => setSelected(null)}><X size={18} style={{ color: "var(--muted-foreground)" }} /></button>
             </div>
             <div className="space-y-3">

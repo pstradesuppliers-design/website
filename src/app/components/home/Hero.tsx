@@ -54,7 +54,7 @@ export function Hero() {
 
           {/* Subheadline */}
           <p className="text-lg mb-8 leading-relaxed" style={{ color: "rgba(255,255,255,0.82)" }}>
-            Trusted nationwide for on-grid and off-grid solar, water pumping, and energy infrastructure — backed by engineers with two decades of renewable energy experience across all 7 provinces of Nepal.
+            Trusted nationwide for on-grid and off-grid solar, water pumping, and energy infrastructure  backed by engineers with two decades of renewable energy experience across all 7 provinces of Nepal.
           </p>
 
           {/* CTAs */}

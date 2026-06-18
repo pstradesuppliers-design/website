@@ -292,7 +292,7 @@ export function SolutionDetail({
             <h2 className="mb-4">How We Deliver Your System</h2>
             <p className="max-w-xl mx-auto" style={{ color: "var(--muted-foreground)" }}>
               A clear, transparent journey from your first enquiry to a fully
-              operational system — with our team guiding every step.
+              operational system  with our team guiding every step.
             </p>
           </div>
 
@@ -371,7 +371,7 @@ export function SolutionDetail({
             </div>
             <h2 className="text-white mb-4">See It In Action</h2>
             <p className="max-w-xl mx-auto" style={{ color: "rgba(255,255,255,0.6)" }}>
-              Real installations completed by our team across Nepal —
+              Real installations completed by our team across Nepal 
               delivering measurable impact for our clients.
             </p>
           </div>

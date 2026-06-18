@@ -1,7 +1,7 @@
 import { CheckCircle, ArrowRight } from "lucide-react";
 import { useNavigate } from "react-router";
+import TEAM_IMG from "../../../imports/group.webp";
 
-const TEAM_IMG = "https://images.unsplash.com/photo-1622675363311-3e1904dc1885?w=800&h=600&fit=crop&auto=format&q=80";
 const ENGINEER_IMG = "https://images.unsplash.com/photo-1648135327756-b606e2eb8caa?w=400&h=400&fit=crop&auto=format&q=80";
 
 const highlights = [
@@ -69,10 +69,10 @@ export function CompanyIntro() {
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-5">
-              P.S. Trade and Suppliers Pvt. Ltd. is a Kathmandu-based business organisation committed to delivering superior goods and energy solutions across Nepal. As a trusted solar EPC (engineering, procurement, and construction) company, we combine reliable commodity trading with end-to-end renewable energy delivery — from feasibility study to installation to long-term asset management.
+              P.S. Trade and Suppliers Pvt. Ltd. is a Kathmandu-based business organisation committed to delivering superior goods and energy solutions across Nepal. As a trusted solar EPC (engineering, procurement, and construction) company, we combine reliable commodity trading with end-to-end renewable energy delivery  from feasibility study to installation to long-term asset management.
             </p>
             <p className="text-gray-600 leading-relaxed mb-7">
-              With an extensive supplier network and an engineering team registered with the Nepal Engineering Council ('A' Electrical), we are well-positioned to deliver physical commodities and energy solutions efficiently, reliably, and responsibly — both nationally and across South Asia.
+              With an extensive supplier network and an engineering team registered with the Nepal Engineering Council ('A' Electrical), we are well-positioned to deliver physical commodities and energy solutions efficiently, reliably, and responsibly  both nationally and across South Asia.
             </p>
 
             <ul className="space-y-3 mb-8">

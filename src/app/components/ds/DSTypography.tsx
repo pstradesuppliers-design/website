@@ -29,7 +29,7 @@ export function DSTypography() {
           </h3>
         </div>
         <p className="text-lg text-muted-foreground" style={{ fontFamily: "Inter, sans-serif" }}>
-          P.S. Trade & Suppliers delivers end-to-end renewable energy systems — from consultation and design through to installation, commissioning, and lifetime maintenance.
+          P.S. Trade & Suppliers delivers end-to-end renewable energy systems  from consultation and design through to installation, commissioning, and lifetime maintenance.
         </p>
         <p className="text-base text-muted-foreground" style={{ fontFamily: "Inter, sans-serif" }}>
           With over a decade of experience across East Africa, we've helped hundreds of clients reduce their carbon footprint and achieve energy independence.

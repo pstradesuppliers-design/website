@@ -195,7 +195,7 @@ export function DSCards() {
             <div className="absolute top-0 left-0 w-1 h-full" style={{ background: "#049DBF" }} />
             <div className="text-4xl leading-none mb-4" style={{ color: "#049DBF", fontFamily: "Georgia, serif" }}>"</div>
             <p className="text-base text-foreground leading-relaxed mb-5">
-              P.S. Trade & Suppliers transformed our facility's energy profile entirely. Our electricity bills dropped by 78% in the first six months and the installation team was exceptional — professional, on schedule, and meticulous.
+              P.S. Trade & Suppliers transformed our facility's energy profile entirely. Our electricity bills dropped by 78% in the first six months and the installation team was exceptional  professional, on schedule, and meticulous.
             </p>
             <div className="flex items-center gap-3">
               <img

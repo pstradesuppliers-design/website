@@ -54,14 +54,14 @@ export const services: ServiceData[] = [
     shortTitle: "Consulting",
     tagline: "Expert feasibility studies and technical, financial, and environmental risk assessments for energy projects.",
     description:
-      "We offer expert consulting services with a focus on detailed feasibility studies for energy projects. Our team assesses the technical, financial, and environmental aspects of each project to ensure viability — providing actionable recommendations that help clients make informed decisions, minimise risk, and ensure project success.",
+      "We offer expert consulting services with a focus on detailed feasibility studies for energy projects. Our team assesses the technical, financial, and environmental aspects of each project to ensure viability  providing actionable recommendations that help clients make informed decisions, minimise risk, and ensure project success.",
     heroImage:
       "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1600&h=900&fit=crop&auto=format",
     accentColor: "var(--brand-primary)",
     accentLight: "var(--brand-primary-light)",
     tag: "Advisory",
     overview: [
-      "Before committing to any renewable energy investment, you need impartial, expert advice. P.S. Trade & Suppliers' consulting team provides independent technical and financial analysis — helping households, businesses, developers, and government bodies make the right energy decisions from the very beginning.",
+      "Before committing to any renewable energy investment, you need impartial, expert advice. P.S. Trade & Suppliers' consulting team provides independent technical and financial analysis  helping households, businesses, developers, and government bodies make the right energy decisions from the very beginning.",
       "Our consultants combine deep knowledge of Nepal's energy landscape, regulatory environment, grid infrastructure, and natural resources with internationally recognised methodologies. We assess sites, model financial returns, identify risks, and produce bankable reports that satisfy lenders, investors, and government approvers alike.",
     ],
     deliverables: [
@@ -83,25 +83,25 @@ export const services: ServiceData[] = [
         icon: "TrendingUp",
         title: "Bankable Financial Projections",
         description:
-          "Detailed IRR, NPV, and payback period modelling — prepared to lender and investor standards, supporting project financing and government grant applications.",
+          "Detailed IRR, NPV, and payback period modelling  prepared to lender and investor standards, supporting project financing and government grant applications.",
       },
       {
         icon: "Shield",
         title: "Independent, Conflict-Free Advice",
         description:
-          "Our consulting engagements are separate from sales. You receive honest recommendations — not upselling — with your interests, not ours, at the centre.",
+          "Our consulting engagements are separate from sales. You receive honest recommendations  not upselling  with your interests, not ours, at the centre.",
       },
       {
         icon: "FileText",
         title: "Regulatory Navigation",
         description:
-          "We guide you through Nepal's licensing, net metering applications, environmental clearances, and NEA interconnection requirements — eliminating bureaucratic delays.",
+          "We guide you through Nepal's licensing, net metering applications, environmental clearances, and NEA interconnection requirements  eliminating bureaucratic delays.",
       },
       {
         icon: "BarChart2",
         title: "Technology Comparison & Selection",
         description:
-          "Objective comparison of solar, hydro, wind, and storage technologies for your specific site — with a clear recommendation backed by technical evidence.",
+          "Objective comparison of solar, hydro, wind, and storage technologies for your specific site  with a clear recommendation backed by technical evidence.",
       },
       {
         icon: "Users",
@@ -115,7 +115,7 @@ export const services: ServiceData[] = [
         number: "01",
         title: "Initial Consultation & Scope Definition",
         description:
-          "A discovery call or meeting to understand your goals, constraints, timeline, and budget — resulting in a clear Terms of Reference for the engagement.",
+          "A discovery call or meeting to understand your goals, constraints, timeline, and budget  resulting in a clear Terms of Reference for the engagement.",
       },
       {
         number: "02",
@@ -127,13 +127,13 @@ export const services: ServiceData[] = [
         number: "03",
         title: "Technical Feasibility Analysis",
         description:
-          "Detailed technical analysis covering system sizing, technology selection, grid compatibility, and site constraints — with supporting calculations.",
+          "Detailed technical analysis covering system sizing, technology selection, grid compatibility, and site constraints  with supporting calculations.",
       },
       {
         number: "04",
         title: "Financial Modelling",
         description:
-          "Project economics modelled over a 25-year horizon — CAPEX, OPEX, revenue, IRR, NPV, payback period, and sensitivity analysis.",
+          "Project economics modelled over a 25-year horizon  CAPEX, OPEX, revenue, IRR, NPV, payback period, and sensitivity analysis.",
       },
       {
         number: "05",
@@ -145,7 +145,7 @@ export const services: ServiceData[] = [
         number: "06",
         title: "Ongoing Advisory Support",
         description:
-          "Post-report support during procurement, financing, and implementation phases — ensuring recommendations translate into results.",
+          "Post-report support during procurement, financing, and implementation phases  ensuring recommendations translate into results.",
       },
     ],
     projects: [
@@ -178,7 +178,7 @@ export const services: ServiceData[] = [
       {
         question: "Is your consulting truly independent, or do you recommend your own products?",
         answer:
-          "Our consulting engagements are structured as independent advisory contracts — separate from our supply and installation business. We have no obligation to recommend our own equipment and will recommend competitors' products when they are the better fit for your project. Clients can choose to proceed with P.S. Trade & Suppliers for implementation or appoint a different contractor entirely.",
+          "Our consulting engagements are structured as independent advisory contracts  separate from our supply and installation business. We have no obligation to recommend our own equipment and will recommend competitors' products when they are the better fit for your project. Clients can choose to proceed with P.S. Trade & Suppliers for implementation or appoint a different contractor entirely.",
       },
       {
         question: "What does a feasibility study cost, and how long does it take?",
@@ -216,8 +216,8 @@ export const services: ServiceData[] = [
     accentLight: "var(--brand-secondary-light)",
     tag: "Supply Chain",
     overview: [
-      "Sourcing the right equipment at the right price — with genuine warranties and reliable after-sales support — is one of the hardest challenges in Nepal's renewable energy market. Counterfeit panels, uncertified inverters, and grey-market products are widespread, and the wrong purchase decision can cost far more than the initial savings.",
-      "P.S. Trade & Suppliers is an authorised distributor for multiple Tier-1 solar panel manufacturers and leading inverter and battery brands. We procure, quality-check, customs-clear, and deliver certified equipment to your site across all seven provinces — backed by manufacturer warranties and our own after-sales team.",
+      "Sourcing the right equipment at the right price  with genuine warranties and reliable after-sales support  is one of the hardest challenges in Nepal's renewable energy market. Counterfeit panels, uncertified inverters, and grey-market products are widespread, and the wrong purchase decision can cost far more than the initial savings.",
+      "P.S. Trade & Suppliers is an authorised distributor for multiple Tier-1 solar panel manufacturers and leading inverter and battery brands. We procure, quality-check, customs-clear, and deliver certified equipment to your site across all seven provinces  backed by manufacturer warranties and our own after-sales team.",
     ],
     deliverables: [
       { label: "Panel Brands", value: "Tier-1 Manufacturers Only" },
@@ -232,19 +232,19 @@ export const services: ServiceData[] = [
         icon: "Award",
         title: "Tier-1 Panels Only",
         description:
-          "We supply only Bloomberg Tier-1 rated solar panels from manufacturers with proven bankability — no second-tier or grey-market products.",
+          "We supply only Bloomberg Tier-1 rated solar panels from manufacturers with proven bankability  no second-tier or grey-market products.",
       },
       {
         icon: "Shield",
         title: "Full Manufacturer Warranty",
         description:
-          "Every product comes with genuine manufacturer warranty documentation — 25-year output warranties on panels, 10-year inverter warranties, and 8-year battery warranties.",
+          "Every product comes with genuine manufacturer warranty documentation  25-year output warranties on panels, 10-year inverter warranties, and 8-year battery warranties.",
       },
       {
         icon: "Package",
         title: "Customs Clearance & Logistics",
         description:
-          "We handle all import duties, customs clearance, and Nepal-side logistics — simplifying procurement for buyers who cannot manage international supply chains.",
+          "We handle all import duties, customs clearance, and Nepal-side logistics  simplifying procurement for buyers who cannot manage international supply chains.",
       },
       {
         icon: "DollarSign",
@@ -256,13 +256,13 @@ export const services: ServiceData[] = [
         icon: "CheckSquare",
         title: "Pre-Delivery Inspection",
         description:
-          "All equipment is inspected at our warehouse before dispatch — checking for transit damage, verifying serial numbers, and confirming specifications match your order.",
+          "All equipment is inspected at our warehouse before dispatch  checking for transit damage, verifying serial numbers, and confirming specifications match your order.",
       },
       {
         icon: "Truck",
         title: "Last-Mile Delivery",
         description:
-          "Our logistics network covers road, porter, and helicopter delivery to remote sites across Nepal — ensuring equipment reaches even the most inaccessible locations.",
+          "Our logistics network covers road, porter, and helicopter delivery to remote sites across Nepal  ensuring equipment reaches even the most inaccessible locations.",
       },
     ],
     process: [
@@ -270,7 +270,7 @@ export const services: ServiceData[] = [
         number: "01",
         title: "Requirements Specification",
         description:
-          "We work with you or your engineer to define precise equipment specifications — panel wattage, inverter type, battery chemistry, mounting system, and accessories.",
+          "We work with you or your engineer to define precise equipment specifications  panel wattage, inverter type, battery chemistry, mounting system, and accessories.",
       },
       {
         number: "02",
@@ -282,7 +282,7 @@ export const services: ServiceData[] = [
         number: "03",
         title: "Order Confirmation & Lead Time",
         description:
-          "Once you confirm the order, we provide a firm delivery timeline — from stock for common items, or 4–8 weeks for special orders from manufacturers.",
+          "Once you confirm the order, we provide a firm delivery timeline  from stock for common items, or 4–8 weeks for special orders from manufacturers.",
       },
       {
         number: "04",
@@ -300,7 +300,7 @@ export const services: ServiceData[] = [
         number: "06",
         title: "Site Delivery & Handover",
         description:
-          "Equipment is delivered to your site or installation contractor — with a delivery note, packing list, and condition report for your records.",
+          "Equipment is delivered to your site or installation contractor  with a delivery note, packing list, and condition report for your records.",
       },
     ],
     projects: [
@@ -353,7 +353,7 @@ export const services: ServiceData[] = [
       {
         question: "Can you source equipment not listed in your standard catalogue?",
         answer:
-          "We can source most renewable energy equipment on request through our international supplier network — including wind turbine components, micro-hydro equipment, energy management systems, and EV charging infrastructure. Lead times for special orders are typically 6–12 weeks.",
+          "We can source most renewable energy equipment on request through our international supplier network  including wind turbine components, micro-hydro equipment, energy management systems, and EV charging infrastructure. Lead times for special orders are typically 6–12 weeks.",
       },
     ],
   },
@@ -364,15 +364,15 @@ export const services: ServiceData[] = [
     shortTitle: "Engineering",
     tagline: "End-to-end design, installation, and commissioning of electrical and renewable energy systems.",
     description:
-      "Our engineering services specialise in delivering high-quality solutions in electrical systems and renewable energy projects. Our skilled engineers design, implement, and maintain advanced solar PV and electrical infrastructure for a wide range of industries — from rural mini-grids to utility-scale solar farms.",
+      "Our engineering services specialise in delivering high-quality solutions in electrical systems and renewable energy projects. Our skilled engineers design, implement, and maintain advanced solar PV and electrical infrastructure for a wide range of industries  from rural mini-grids to utility-scale solar farms.",
     heroImage:
       "https://images.unsplash.com/photo-1668097613572-40b7c11c8727?w=1600&h=900&fit=crop&auto=format",
     accentColor: "var(--brand-green)",
     accentLight: "var(--brand-green-light)",
     tag: "Turnkey",
     overview: [
-      "Engineering excellence is the backbone of every reliable renewable energy system. P.S. Trade & Suppliers' in-house engineering team handles the full technical lifecycle — from preliminary site surveys and detailed electrical and structural designs, through to on-site installation, commissioning, and grid connection.",
-      "All installations are carried out by our ERC-licensed engineers and CTEVT-certified technicians, following IEC standards, Nepal Electricity Authority guidelines, and international best practices. We handle residential rooftop systems, large commercial and industrial installations, off-grid community projects, and complex hybrid systems — with the same standard of engineering rigour across all project scales.",
+      "Engineering excellence is the backbone of every reliable renewable energy system. P.S. Trade & Suppliers' in-house engineering team handles the full technical lifecycle  from preliminary site surveys and detailed electrical and structural designs, through to on-site installation, commissioning, and grid connection.",
+      "All installations are carried out by our ERC-licensed engineers and CTEVT-certified technicians, following IEC standards, Nepal Electricity Authority guidelines, and international best practices. We handle residential rooftop systems, large commercial and industrial installations, off-grid community projects, and complex hybrid systems  with the same standard of engineering rigour across all project scales.",
     ],
     deliverables: [
       { label: "Engineering Team", value: "ERC-Licensed Engineers" },
@@ -387,37 +387,37 @@ export const services: ServiceData[] = [
         icon: "Cpu",
         title: "Custom System Design",
         description:
-          "Every system is individually engineered — not templated. We produce single-line diagrams, panel layout drawings, structural calculations, and cable schedules specific to your site.",
+          "Every system is individually engineered  not templated. We produce single-line diagrams, panel layout drawings, structural calculations, and cable schedules specific to your site.",
       },
       {
         icon: "HardHat",
         title: "Licensed Engineers On Every Job",
         description:
-          "Our installations are supervised by ERC-licensed electrical engineers and carried out by CTEVT-certified technicians — meeting Nepal's professional licensing requirements.",
+          "Our installations are supervised by ERC-licensed electrical engineers and carried out by CTEVT-certified technicians  meeting Nepal's professional licensing requirements.",
       },
       {
         icon: "Wind",
         title: "Structural & Wind Load Engineering",
         description:
-          "Mounting systems are engineered for Nepal's local wind speeds, snow loads, and seismic zone requirements — using certified racking systems with structural calculations.",
+          "Mounting systems are engineered for Nepal's local wind speeds, snow loads, and seismic zone requirements  using certified racking systems with structural calculations.",
       },
       {
         icon: "Zap",
         title: "Safe, Code-Compliant Wiring",
         description:
-          "All DC and AC wiring, protection devices, earthing, and surge protection are installed to IEC and NEA standards — with full as-built drawings at project close.",
+          "All DC and AC wiring, protection devices, earthing, and surge protection are installed to IEC and NEA standards  with full as-built drawings at project close.",
       },
       {
         icon: "Monitor",
         title: "Commissioning & Test Documentation",
         description:
-          "We produce full IEC 62446-compliant commissioning reports — including IV curve tests, insulation resistance, earth continuity, and string performance records.",
+          "We produce full IEC 62446-compliant commissioning reports  including IV curve tests, insulation resistance, earth continuity, and string performance records.",
       },
       {
         icon: "ClipboardCheck",
         title: "Quality Assurance Throughout",
         description:
-          "Structured quality checkpoints at design, mid-installation, and commissioning stages — with photographic records and sign-off documentation at each milestone.",
+          "Structured quality checkpoints at design, mid-installation, and commissioning stages  with photographic records and sign-off documentation at each milestone.",
       },
     ],
     process: [
@@ -449,13 +449,13 @@ export const services: ServiceData[] = [
         number: "05",
         title: "Electrical Installation & Wiring",
         description:
-          "Panel mounting, DC and AC wiring, inverter installation, protection devices, earthing, and surge protection — with quality checks at each stage.",
+          "Panel mounting, DC and AC wiring, inverter installation, protection devices, earthing, and surge protection  with quality checks at each stage.",
       },
       {
         number: "06",
         title: "Commissioning, Testing & Handover",
         description:
-          "Full system commissioning to IEC 62446 standard — IV curve tests, insulation tests, functional testing, and grid connection. As-built documentation and client training at handover.",
+          "Full system commissioning to IEC 62446 standard  IV curve tests, insulation tests, functional testing, and grid connection. As-built documentation and client training at handover.",
       },
     ],
     projects: [
@@ -493,7 +493,7 @@ export const services: ServiceData[] = [
       {
         question: "Do you handle NEA grid connection paperwork for on-grid systems?",
         answer:
-          "Yes. We manage the complete NEA net metering and grid connection application process on your behalf — including the technical documentation, site inspection scheduling, and meter installation coordination. This is included in our turnkey installation package.",
+          "Yes. We manage the complete NEA net metering and grid connection application process on your behalf  including the technical documentation, site inspection scheduling, and meter installation coordination. This is included in our turnkey installation package.",
       },
       {
         question: "What structural warranty do you provide on the mounting system?",
@@ -503,7 +503,7 @@ export const services: ServiceData[] = [
       {
         question: "Can you upgrade or expand an existing solar installation?",
         answer:
-          "Yes — system expansion is a common request. We can add panels to an existing string inverter (if capacity allows), add a second inverter, or upgrade to a larger hybrid inverter. We first inspect the existing installation to confirm its condition and compliance before designing any expansion.",
+          "Yes  system expansion is a common request. We can add panels to an existing string inverter (if capacity allows), add a second inverter, or upgrade to a larger hybrid inverter. We first inspect the existing installation to confirm its condition and compliance before designing any expansion.",
       },
       {
         question: "Do you carry insurance for on-site work?",
@@ -526,7 +526,7 @@ export const services: ServiceData[] = [
     accentLight: "#f5f3ff",
     tag: "O&M",
     overview: [
-      "A solar or hybrid energy system is a long-term asset — and like any asset, its performance depends on the quality of its ongoing care. Poorly maintained systems lose 15–30% of their energy output within a few years. Our asset management and O&M service ensures your system delivers its warranted performance across its full 25-year lifecycle.",
+      "A solar or hybrid energy system is a long-term asset  and like any asset, its performance depends on the quality of its ongoing care. Poorly maintained systems lose 15–30% of their energy output within a few years. Our asset management and O&M service ensures your system delivers its warranted performance across its full 25-year lifecycle.",
       "We offer tiered O&M contracts covering everything from basic annual maintenance visits to full 24/7 SCADA monitoring, predictive maintenance, performance guarantees, and complete asset management including insurance, warranty management, and lender reporting. Whether you installed with us or with another contractor, we can take over the O&M of your existing system.",
     ],
     deliverables: [
@@ -542,13 +542,13 @@ export const services: ServiceData[] = [
         icon: "Activity",
         title: "24/7 Remote Performance Monitoring",
         description:
-          "SCADA-connected monitoring detects performance deviations, inverter faults, and string failures in real time — often before you notice any issue.",
+          "SCADA-connected monitoring detects performance deviations, inverter faults, and string failures in real time  often before you notice any issue.",
       },
       {
         icon: "TrendingUp",
         title: "Performance Guarantee Options",
         description:
-          "For systems we install and manage, we offer energy yield guarantees — backed by financial penalties if performance falls below the contracted generation threshold.",
+          "For systems we install and manage, we offer energy yield guarantees  backed by financial penalties if performance falls below the contracted generation threshold.",
       },
       {
         icon: "Wrench",
@@ -566,13 +566,13 @@ export const services: ServiceData[] = [
         icon: "FileText",
         title: "Lender & Investor Reporting",
         description:
-          "Monthly and annual performance reports prepared to IFC/ADB standards — supporting project finance compliance, insurance claims, and investor updates.",
+          "Monthly and annual performance reports prepared to IFC/ADB standards  supporting project finance compliance, insurance claims, and investor updates.",
       },
       {
         icon: "Shield",
         title: "Warranty & Insurance Management",
         description:
-          "We manage manufacturer warranty claims, coordinate insurance assessments, and handle all technical documentation — so you deal with one contact, not many.",
+          "We manage manufacturer warranty claims, coordinate insurance assessments, and handle all technical documentation  so you deal with one contact, not many.",
       },
     ],
     process: [
@@ -580,25 +580,25 @@ export const services: ServiceData[] = [
         number: "01",
         title: "Asset Baseline Assessment",
         description:
-          "Initial inspection of your existing system — reviewing as-built documentation, commissioning records, current performance data, and equipment condition.",
+          "Initial inspection of your existing system  reviewing as-built documentation, commissioning records, current performance data, and equipment condition.",
       },
       {
         number: "02",
         title: "Monitoring System Onboarding",
         description:
-          "Integration of your inverter and monitoring hardware into our centralised SCADA platform — with alert thresholds and reporting parameters configured.",
+          "Integration of your inverter and monitoring hardware into our centralised SCADA platform  with alert thresholds and reporting parameters configured.",
       },
       {
         number: "03",
         title: "O&M Contract Agreement",
         description:
-          "Agree the scope, SLAs, reporting requirements, and contract term — with pricing fixed for the contract period and annual CPI adjustment only.",
+          "Agree the scope, SLAs, reporting requirements, and contract term  with pricing fixed for the contract period and annual CPI adjustment only.",
       },
       {
         number: "04",
         title: "Scheduled Preventive Maintenance",
         description:
-          "Quarterly site visits following our standardised maintenance checklist — with a detailed inspection report issued within 5 business days of each visit.",
+          "Quarterly site visits following our standardised maintenance checklist  with a detailed inspection report issued within 5 business days of each visit.",
       },
       {
         number: "05",
@@ -610,7 +610,7 @@ export const services: ServiceData[] = [
         number: "06",
         title: "Performance Reporting & Review",
         description:
-          "Monthly dashboard updates and an annual performance review meeting — comparing actual vs. modelled generation, reviewing equipment health, and planning the year ahead.",
+          "Monthly dashboard updates and an annual performance review meeting  comparing actual vs. modelled generation, reviewing equipment health, and planning the year ahead.",
       },
     ],
     projects: [
@@ -658,7 +658,7 @@ export const services: ServiceData[] = [
       {
         question: "How often will you visit my site for maintenance?",
         answer:
-          "Our standard O&M contract includes quarterly preventive maintenance visits — 4 per year. Each visit covers panel cleaning, visual inspection of all components, torque-checking of electrical connections, inverter log review, earthing resistance measurement, and vegetation clearance around ground-mounted arrays.",
+          "Our standard O&M contract includes quarterly preventive maintenance visits  4 per year. Each visit covers panel cleaning, visual inspection of all components, torque-checking of electrical connections, inverter log review, earthing resistance measurement, and vegetation clearance around ground-mounted arrays.",
       },
       {
         question: "Do you offer performance guarantees?",

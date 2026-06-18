@@ -88,7 +88,7 @@ const values = [
     icon: Shield,
     title: "Integrity",
     description:
-      "We operate with complete transparency — honest pricing, clear timelines, and no hidden costs. Our clients always know exactly what they're getting.",
+      "We operate with complete transparency  honest pricing, clear timelines, and no hidden costs. Our clients always know exactly what they're getting.",
     color: "var(--brand-primary)",
     bg: "var(--brand-primary-light)",
   },
@@ -96,7 +96,7 @@ const values = [
     icon: Leaf,
     title: "Sustainability",
     description:
-      "Every solution we deliver reduces Nepal's carbon footprint. Sustainability isn't a feature — it's the foundation of everything we build.",
+      "Every solution we deliver reduces Nepal's carbon footprint. Sustainability isn't a feature  it's the foundation of everything we build.",
     color: "var(--brand-green)",
     bg: "var(--brand-green-light)",
   },
@@ -104,7 +104,7 @@ const values = [
     icon: Users,
     title: "Community First",
     description:
-      "From urban rooftop systems to remote mountain villages, we believe clean energy is a right for all Nepalis — not just those near the grid.",
+      "From urban rooftop systems to remote mountain villages, we believe clean energy is a right for all Nepalis  not just those near the grid.",
     color: "var(--brand-secondary)",
     bg: "var(--brand-secondary-light)",
   },
@@ -120,7 +120,7 @@ const values = [
     icon: TrendingUp,
     title: "Innovation",
     description:
-      "We continuously adopt emerging renewable technologies — from smart inverters to hybrid battery systems — keeping our clients ahead of the curve.",
+      "We continuously adopt emerging renewable technologies  from smart inverters to hybrid battery systems  keeping our clients ahead of the curve.",
     color: "var(--brand-yellow-dark)",
     bg: "#fefce8",
   },
@@ -139,7 +139,7 @@ const differentiators = [
   {
     icon: Zap,
     title: "Full-Cycle Delivery",
-    text: "Procurement, engineering, consulting, and asset management under one company — covering the full project lifecycle from sourcing to long-term performance management.",
+    text: "Procurement, engineering, consulting, and asset management under one company  covering the full project lifecycle from sourcing to long-term performance management.",
   },
   {
     icon: Globe,
@@ -154,7 +154,7 @@ const differentiators = [
   {
     icon: CheckCircle,
     title: "Regulatory Compliance",
-    text: "Registered Member of the Nepal Engineering Council ('A' Electrical) — meeting professional licensing requirements on every project.",
+    text: "Registered Member of the Nepal Engineering Council ('A' Electrical)  meeting professional licensing requirements on every project.",
   },
   {
     icon: Lightbulb,
@@ -164,7 +164,7 @@ const differentiators = [
   {
     icon: Star,
     title: "Quality & Sustainability",
-    text: "We prioritise eco-friendly materials and vetted global suppliers — delivering high-quality solutions tailored to each client's specific needs.",
+    text: "We prioritise eco-friendly materials and vetted global suppliers  delivering high-quality solutions tailored to each client's specific needs.",
   },
 ];
 
@@ -260,7 +260,7 @@ export function AboutUs() {
               className="text-lg mb-8 max-w-lg"
               style={{ color: "rgba(255,255,255,0.75)", lineHeight: 1.8 }}
             >
-              P.S. Trade and Suppliers Pvt. Ltd. is a Kathmandu-based solar EPC and trading company committed to delivering superior goods and energy solutions across Nepal — combining reliable commodity trading with end-to-end renewable energy delivery.
+              P.S. Trade and Suppliers Pvt. Ltd. is a Kathmandu-based solar EPC and trading company committed to delivering superior goods and energy solutions across Nepal  combining reliable commodity trading with end-to-end renewable energy delivery.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -366,7 +366,7 @@ export function AboutUs() {
               </div>
               <h2 className="mb-5">Who We Are</h2>
               <p className="mb-4" style={{ color: "var(--muted-foreground)" }}>
-                P.S. Trade and Suppliers Pvt. Ltd. is a Kathmandu-based business organisation committed to delivering superior goods and energy solutions across Nepal. As a trusted dealer in the sale and purchase of commodities, and a registered solar EPC company, we combine reliable commodity trading with end-to-end renewable energy delivery — from feasibility study to installation to long-term asset management.
+                P.S. Trade and Suppliers Pvt. Ltd. is a Kathmandu-based business organisation committed to delivering superior goods and energy solutions across Nepal. As a trusted dealer in the sale and purchase of commodities, and a registered solar EPC company, we combine reliable commodity trading with end-to-end renewable energy delivery  from feasibility study to installation to long-term asset management.
               </p>
               <p className="mb-6" style={{ color: "var(--muted-foreground)" }}>
                 Our work spans nationwide solar irrigation infrastructure with the Alternative Energy Promotion Centre (AEPC), clean energy partnerships with INGOs and NGOs such as Practical Action, WWF, SABAL Nepal, RERL, Helvetas, Renewable World, and ICIMOD, and turnkey on-grid/off-grid installations for hotels, hospitals, schools, and government organisations.
@@ -376,7 +376,7 @@ export function AboutUs() {
                   "Registered Member of the Nepal Engineering Council ('A' Electrical)",
                   "Extensive supplier network delivering certified, eco-friendly solar components",
                   "Nationwide reach across Koshi, Madhesh, Bagmati, Gandaki, Lumbini, Karnali & Sudurpashchim",
-                  "P.S. Trade and Suppliers — your go-to partner for quality, reliability, and sustainable energy in Nepal",
+                  "P.S. Trade and Suppliers  your go-to partner for quality, reliability, and sustainable energy in Nepal",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle
@@ -495,7 +495,7 @@ export function AboutUs() {
               style={{ color: "var(--muted-foreground)" }}
             >
               Dozens of companies supply solar panels. We deliver complete
-              energy transformations — backed by expertise, local presence,
+              energy transformations  backed by expertise, local presence,
               and a genuine commitment to Nepal's future.
             </p>
           </div>
@@ -617,8 +617,8 @@ export function AboutUs() {
               className="max-w-xl mx-auto"
               style={{ color: "var(--muted-foreground)" }}
             >
-              We are proud to serve all seven provinces of Nepal — from the
-              high Himalayas to the Terai plains — with dedicated field teams
+              We are proud to serve all seven provinces of Nepal  from the
+              high Himalayas to the Terai plains  with dedicated field teams
               and local expertise in every region.
             </p>
           </div>
@@ -748,7 +748,7 @@ export function AboutUs() {
                     style={{ background: "var(--brand-green)" }}
                   />
                   <span className="text-xs" style={{ color: "var(--muted-foreground)" }}>
-                    Active — full operations
+                    Active  full operations
                   </span>
                 </div>
                 <div className="flex items-center gap-2">
@@ -757,7 +757,7 @@ export function AboutUs() {
                     style={{ background: "var(--brand-secondary)" }}
                   />
                   <span className="text-xs" style={{ color: "var(--muted-foreground)" }}>
-                    Expanding — growing presence
+                    Expanding  growing presence
                   </span>
                 </div>
               </div>
@@ -815,7 +815,7 @@ export function AboutUs() {
             style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.8 }}
           >
             Whether you're a homeowner, a business owner, or a municipality
-            looking to power your community with renewable energy — our team
+            looking to power your community with renewable energy  our team
             is ready to design a solution tailored to your needs.
           </p>
 
