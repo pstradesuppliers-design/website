@@ -233,7 +233,7 @@ export function Footer({ onAdmin }: { onAdmin?: () => void }) {
           <p className="text-xs text-center" style={{ color: "rgba(255,255,255,0.3)" }}>
             © {new Date().getFullYear()} {siteSettings.siteName}. All rights reserved.
           </p>
-          {onAdmin && (
+          {/* {onAdmin && (
             <button
               onClick={onAdmin}
               className="text-xs transition-all hover:opacity-60"
@@ -242,7 +242,7 @@ export function Footer({ onAdmin }: { onAdmin?: () => void }) {
             >
               Admin
             </button>
-          )}
+          )} */}
         </div>
       </div>
     </footer>
