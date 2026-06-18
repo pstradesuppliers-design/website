@@ -1,3 +1,11 @@
+import bibek from "../../../imports/8.webp";
+import diwas from "../../../imports/11.webp";
+import prashant from "../../../imports/13.webp";
+import shahil from "../../../imports/shahil.webp";
+import prajwal from "../../../imports/12.webp";
+import lila from "../../../imports/9.webp";
+import Rameshwor from "../../../imports/10.webp";
+
 export interface Education {
   degree: string;
   institution: string;
@@ -40,7 +48,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Er. Prashant Bajracharya",
     position: "Managing Director & Senior Solar Business Expert",
     department: "Leadership",
-    photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&h=600&fit=crop&auto=format",
+    photo: prashant,
     shortBio: "Over 18 years of experience spanning engineering management, institutional sales, and large-scale project operations in renewable energy across Nepal.",
     fullBio: "Er. Prashant Bajracharya is the Managing Director of P.S. Trade and Suppliers Pvt. Ltd. With over 18 years of experience in engineering management, institutional sales, and large-scale project operations, he has served as Project Manager for AEPC solar irrigation and drinking water schemes across 300+ sites nationwide.\n\nHis professional journey includes key leadership roles at SunFarmer Nepal, Chaudhary Group, Sipradi Energy, and Engineering Marketing Concern. A Registered Member of the Nepal Engineering Council ('A' Electrical), he has been instrumental in shaping the company's partnerships with AEPC, UNOPS, ICIMOD, Helvetas, GIZ, WWF, and Renewable World.",
     email: "pstradesuppliers9@gmail.com",
@@ -64,7 +72,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Er. Shahil Shrestha",
     position: "Sr. Manager & Technical Engineer",
     department: "Engineering",
-    photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop&auto=format",
+    photo: shahil,
     shortBio: "Over 5 years of professional experience in renewable energy engineering, specialising in end-to-end solar PV infrastructure development and system optimisation.",
     fullBio: "Er. Shahil Shrestha is P.S. Trade and Suppliers' Senior Manager and Technical Engineer, responsible for end-to-end solar PV infrastructure development, system design, and commissioning. With over 5 years of professional experience, he leads technical delivery of on-grid, off-grid, and hybrid solar projects.\n\nKey projects include the 78.84 kWp Grid-Tied Solar PV System at Siddhasthali Rural Community Hospital (Hetauda), a 43 kWp on-grid system at Bloom Nepal School (Lalitpur), and the 50 kWp Solar Mini-Grid in Charka Tangsong (Dolpa) under AEPC.",
     email: "pstradesuppliers9@gmail.com",
@@ -87,7 +95,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Er. Prajwal Dhakal",
     position: "Technical Consultant",
     department: "Consulting",
-    photo: "https://images.unsplash.com/photo-1582896911227-c966f6e7fb93?w=600&h=600&fit=crop&auto=format",
+    photo: prajwal,
     shortBio: "Designed and supervised more than 200 solar irrigation and community drinking water projects with Renewable World, ICIMOD, KOICA, Helvetas Nepal, and AEPC.",
     fullBio: "Er. Prajwal Dhakal is P.S. Trade and Suppliers' Technical Consultant, with a track record of designing and supervising more than 200 solar irrigation and community drinking water projects across Nepal in collaboration with Renewable World, ICIMOD, KOICA, Helvetas Nepal, and AEPC.\n\nSkilled in PVsyst solar yield simulation and AutoCAD Single Line Diagram (SLD) design, he has also contributed to the 86 MW Solu Khola (Dudhkoshi) Hydroelectric Project.",
     email: "pstradesuppliers9@gmail.com",
@@ -111,7 +119,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Diwas Bajracharya",
     position: "Business Development Manager",
     department: "Operations",
-    photo: "https://images.unsplash.com/photo-1705645930353-0e335311ef20?w=600&h=600&fit=crop&auto=format",
+    photo: diwas,
     shortBio: "Drives client relationships, market expansion, and project pipeline development for the company's solar and trading divisions.",
     fullBio: "Diwas Bajracharya leads business development at P.S. Trade and Suppliers, responsible for client relationships, market expansion, and project pipeline development across the company's solar EPC and commodity trading divisions. With a Bachelor of Business from Australia, he brings international business acumen combined with deep local market knowledge.",
     email: "pstradesuppliers9@gmail.com",
@@ -130,7 +138,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Lila Bahadur Rijal",
     position: "Finance Officer",
     department: "Finance",
-    photo: "https://images.unsplash.com/photo-1585240975858-7264fd020798?w=600&h=600&fit=crop&auto=format",
+    photo: lila,
     shortBio: "Oversees financial planning, project budgeting, and compliance for company operations.",
     fullBio: "Lila Bahadur Rijal is P.S. Trade and Suppliers' Finance Officer, responsible for financial planning, project budgeting, statutory compliance, and corporate governance. With qualifications in both management and law (MBS, LL.B), he brings rigour and regulatory expertise to the company's financial operations.",
     email: "pstradesuppliers9@gmail.com",
@@ -150,7 +158,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Bibek Bajracharya",
     position: "Office Admin",
     department: "Operations",
-    photo: "https://images.unsplash.com/photo-1652471943570-f3590a4e52ed?w=600&h=600&fit=crop&auto=format",
+    photo: bibek,
     shortBio: "Manages administrative operations and day-to-day office coordination for the company.",
     fullBio: "Bibek Bajracharya handles administrative operations and day-to-day office coordination at P.S. Trade and Suppliers, ensuring the smooth running of the Kathmandu head office. With a Bachelor in Finance, he supports the management team with efficient administrative processes and documentation.",
     email: "pstradesuppliers9@gmail.com",
@@ -169,7 +177,7 @@ export const initialTeamData: TeamMember[] = [
     name: "Rameshwor Yadav",
     position: "Field Technician",
     department: "Engineering",
-    photo: "https://images.unsplash.com/photo-1668097613572-40b7c11c8727?w=600&h=600&fit=crop&auto=format",
+    photo: Rameshwor,
     shortBio: "Field technician supporting installation, maintenance, and on-site servicing of solar and electrical systems across Nepal.",
     fullBio: "Rameshwor Yadav is a field technician at P.S. Trade and Suppliers, providing essential on-site support for the installation, commissioning, and maintenance of solar and electrical systems across Nepal. He plays a critical role in the company's field operations, ensuring high-quality installations and timely after-sales service.",
     email: "pstradesuppliers9@gmail.com",
