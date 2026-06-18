@@ -1,4 +1,5 @@
 # P.S. Trade and Suppliers — Website Content & SEO Pack
+
 Ready-to-paste copy for: Home, About Us, Team, Services, Solutions
 
 ---
@@ -12,16 +13,19 @@ Solar EPC Company in Nepal | P.S. Trade and Suppliers
 P.S. Trade and Suppliers is a Kathmandu-based solar EPC company delivering on-grid, off-grid, solar pumping and inverter backup systems across Nepal.
 
 **Focus Keywords:**
+
 - Primary: solar company in Nepal, solar EPC company Nepal, renewable energy company Kathmandu
 - Secondary: on-grid solar system Nepal, off-grid solar Nepal, solar water pumping system Nepal, inverter backup system Nepal, solar panel installation Kathmandu, AEPC registered solar company, industrial solar solutions Nepal, commercial solar installation Nepal
 
 **Hero Section**
-- Headline: *Powering Nepal's Future, One Project at a Time*
+
+- Headline: _Powering Nepal's Future, One Project at a Time_
 - Subheadline: Trusted nationwide for on-grid and off-grid solar, water pumping, and energy infrastructure — backed by engineers with two decades of renewable energy experience across all 7 provinces of Nepal.
 - Primary CTA: Get a Free Site Consultation
 - Secondary CTA: Explore Our Solutions
 
 **Trust / Stats Bar** (use as animated counters)
+
 - 300+ Solar Sites Deployed Nationwide
 - 5.4 MW+ Utility-Scale Solar Engineered
 - 200+ Irrigation & Drinking Water Projects
@@ -32,12 +36,14 @@ P.S. Trade and Suppliers is a Kathmandu-based solar EPC company delivering on-gr
 P.S. Trade and Suppliers blends reliable commodity trading with full-cycle solar EPC delivery — procurement, engineering, consulting, and asset management — under one roof. Our team is a registered Member of the Nepal Engineering Council ('A' Electrical) and has delivered projects with AEPC, UNOPS, ICIMOD, Helvetas, GIZ, WWF, and Renewable World.
 
 **Services Preview (short teaser blurbs — link to full Services page)**
+
 - **Procurement** — Cost-effective sourcing of high-quality, eco-friendly solar components from a vetted global supplier network.
 - **Engineering** — End-to-end design, installation, and commissioning of electrical and renewable energy systems.
 - **Consulting** — Feasibility studies and technical, financial, and environmental risk assessments for energy projects.
 - **Asset Management** — Performance monitoring and lifecycle management of solar and electrical infrastructure.
 
 **Solutions Preview (short teaser blurbs — link to full Solutions page)**
+
 - **On-Grid / Off-Grid Solar Systems** — Custom-sized solar panel installations for homes, businesses, and institutions.
 - **Solar Water Heaters** — Rooftop thermal systems for hot water without the electricity bill.
 - **Inverter Backup Systems** — Uninterrupted power during outages and load shedding.
@@ -47,7 +53,7 @@ P.S. Trade and Suppliers blends reliable commodity trading with full-cycle solar
 From Kathmandu to Dolpa, Mahottari to Sudurpaschim — our solar installations and engineering teams cover Koshi, Madhesh, Bagmati, Gandaki, Lumbini, Karnali, and Sudurpaschim provinces.
 
 **Closing CTA Banner**
-Ready to power your home, farm, or business with solar? *Talk to our engineers today.*
+Ready to power your home, farm, or business with solar? _Talk to our engineers today._
 
 ---
 
@@ -79,6 +85,7 @@ To deliver high-quality products and services to our clients, fostering reliable
 To be a leading and trusted supplier, recognized for our commitment to excellence, sustainability, and innovation, driving long-term growth while positively impacting the communities we serve.
 
 **What Makes Us Different**
+
 - **Full-Cycle Delivery** — Procurement, engineering, consulting, and asset management under one company.
 - **Proven Nationwide Footprint** — 300+ solar irrigation and drinking water sites delivered for AEPC across Nepal.
 - **Trusted by Global Development Partners** — Project experience with AEPC, UNOPS, ICIMOD, GIZ, Helvetas, WWF, and Renewable World.
@@ -104,31 +111,27 @@ Our strength lies in our people. P.S. Trade and Suppliers brings together engine
 **Team Profiles**
 
 **Er. Prashant Bajracharya — Managing Director & Senior Solar Business Expert**
-*B.E. (Electrical & Electronics, Power & Control), Kathmandu University; MBA, Ace Institute of Management*
+_B.E. (Electrical & Electronics, Power & Control), Kathmandu University; MBA, Ace Institute of Management_
 Over 18 years of experience spanning engineering management, institutional sales, and large-scale project operations in renewable energy. Has served as Project Manager for AEPC solar irrigation and drinking water schemes across 300+ sites nationwide, and led commercial solar deployment at SunFarmer Nepal, Chaudhary Group, Sipradi Energy, and Engineering Marketing Concern. Registered Member of the Nepal Engineering Council ('A' Electrical).
 
 **Er. Shahil Shrestha — Sr. Manager & Technical Engineer**
-*B.E. (Electrical and Electronic)*
+_B.E. (Electrical and Electronic)_
 Over 5 years of professional experience in renewable energy engineering, specializing in end-to-end solar PV infrastructure development and system optimization. Key projects include the 78.84 kWp Grid-Tied Solar PV System at Siddhasthali Rural Community Hospital (Hetauda), a 43 kWp on-grid system at Bloom Nepal School (Lalitpur), and the 50 kWp Solar Mini-Grid in Charka Tangsong (Dolpa) under AEPC.
 
-**Er. Manish Baral — Technical Head / Operations Lead, Electrical Engineer**
-*B.E. (Electrical)*
-Over 10 years of hands-on experience in utility-scale solar construction and grid synchronization with the Nepal Electricity Authority (NEA), including the 4.4 MW Som RadhaKrishna Solar Farm and 1 MW Bishnu Priya Solar Farm. Serves as a Technical Verification Expert under AEPC and GIZ Nepal for the Sustainable Energy Challenge Fund (SECF).
-
 **Er. Prajwal Dhakal — Technical Consultant**
-*MSC (Engineering Management); Electrical & Electronics Engineering, Kathmandu University*
+_MSC (Engineering Management); Electrical & Electronics Engineering, Kathmandu University_
 Designed and supervised more than 200 solar irrigation and community drinking water projects with Renewable World, ICIMOD, KOICA, Helvetas Nepal, and AEPC. Skilled in PVsyst solar yield simulation and AutoCAD Single Line Diagram (SLD) design, with experience on the 86 MW Solu Khola (Dudhkoshi) Hydroelectric Project.
 
 **Diwas Bajracharya — Business Development Manager**
-*Bachelor of Business (Australia)*
+_Bachelor of Business (Australia)_
 Drives client relationships, market expansion, and project pipeline development for the company's solar and trading divisions.
 
 **Lila Bahadur Rijal — Finance Officer**
-*MBS, LL.B*
+_MBS, LL.B_
 Oversees financial planning, project budgeting, and compliance for company operations.
 
 **Bibek Bajracharya — Office Admin**
-*Bachelor in Finance*
+_Bachelor in Finance_
 Manages administrative operations and day-to-day office coordination.
 
 **Rameshwor Yadav — Technician**
@@ -197,6 +200,7 @@ A solar water pumping system is a highly efficient setup that uses electricity g
 ---
 
 ## General SEO Recommendations
+
 - **Image alt text:** Use descriptive, keyword-rich alt text for every photo (e.g., "78.84 kWp grid-tied solar PV installation at Siddhasthali Rural Community Hospital Hetauda" instead of "IMG_021.jpg").
 - **Local SEO:** Set up and verify a Google Business Profile for "Sano Bharyang-2, Kathmandu" with the same NAP (Name, Address, Phone) used on the website footer.
 - **Schema markup:** Add `LocalBusiness` and `Organization` structured data (JSON-LD) to the homepage, and `Person` schema on team member profiles if your site builder supports it.

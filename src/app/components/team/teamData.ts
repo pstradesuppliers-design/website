@@ -83,29 +83,6 @@ export const initialTeamData: TeamMember[] = [
     ],
   },
   {
-    id: "manish-baral",
-    name: "Er. Manish Baral",
-    position: "Technical Head / Operations Lead",
-    department: "Engineering",
-    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&h=600&fit=crop&auto=format",
-    shortBio: "Over 10 years of hands-on experience in utility-scale solar construction and grid synchronisation with the Nepal Electricity Authority (NEA).",
-    fullBio: "Er. Manish Baral is P.S. Trade and Suppliers' Technical Head and Operations Lead, bringing over 10 years of hands-on experience in utility-scale solar construction and grid synchronisation. His portfolio includes the 4.4 MW Som RadhaKrishna Solar Farm and the 1 MW Bishnu Priya Solar Farm.\n\nHe currently serves as a Technical Verification Expert under AEPC and GIZ Nepal for the Sustainable Energy Challenge Fund (SECF), providing independent technical oversight for renewable energy projects across Nepal.",
-    email: "pstradesuppliers9@gmail.com",
-    phone: "+977-9851183589",
-    skills: ["Utility-Scale Solar", "Grid Synchronisation", "Technical Verification", "NEA Standards", "SECF Compliance"],
-    education: [
-      { degree: "B.E. Electrical", institution: "Tribhuvan University, Kathmandu", year: "2013" },
-    ],
-    experience: [
-      { role: "Technical Head / Operations Lead", company: "P.S. Trade and Suppliers Pvt. Ltd.", duration: "2019 – Present", description: "Leads all technical operations, utility-scale project construction, and grid synchronisation activities." },
-      { role: "Technical Verification Expert", company: "AEPC / GIZ Nepal (SECF)", duration: "2017 – Present", description: "Independent Technical Verification Expert for the Sustainable Energy Challenge Fund." },
-    ],
-    projects: [
-      { title: "Som RadhaKrishna Solar Farm", location: "Nepal", capacity: "4.4 MW Grid-Connected", description: "Construction lead for the 4.4 MW Som RadhaKrishna Solar Farm connected to the NEA grid." },
-      { title: "Bishnu Priya Solar Farm", location: "Nepal", capacity: "1 MW Grid-Connected", description: "Technical lead for the 1 MW Bishnu Priya Solar Farm — full construction, grid synchronisation, and NEA commissioning." },
-    ],
-  },
-  {
     id: "prajwal-dhakal",
     name: "Er. Prajwal Dhakal",
     position: "Technical Consultant",
