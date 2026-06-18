@@ -5,11 +5,11 @@ import { useSiteData } from "../../context/SiteDataContext";
 import logoImg from "../../../imports/Screenshot_2026-06-12_at_19.38.22-removebg-preview.png";
 
 const navLinks = [
+  { label: "About Us",  to: "/about",      matchPrefix: "/about" },
+  { label: "Team",      to: "/team",       matchPrefix: "/team" },
   { label: "Solutions", to: "/solutions",  matchPrefix: "/solutions" },
   { label: "Services",  to: "/services",   matchPrefix: "/services" },
   { label: "Projects",  to: "/projects",   matchPrefix: "/projects" },
-  { label: "Team",      to: "/team",       matchPrefix: "/team" },
-  { label: "About Us",  to: "/about",      matchPrefix: "/about" },
   { label: "Contact",   to: "/contact",    matchPrefix: "/contact" },
 ];
 

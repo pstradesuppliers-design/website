@@ -26,14 +26,14 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 pt-28 pb-20 w-full">
         <div className="max-w-3xl">
-          {/* Badge */}
+          {/* Badge
           <div
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 text-sm font-semibold"
             style={{ background: "rgba(4,157,191,0.18)", border: "1px solid rgba(4,157,191,0.45)", color: "#7ee8fa" }}
           >
             <span className="w-2 h-2 rounded-full animate-pulse" style={{ background: "#049DBF" }} />
             Nepal's Trusted Solar EPC Company
-          </div>
+          </div> */}
 
           {/* Headline */}
           <h1
