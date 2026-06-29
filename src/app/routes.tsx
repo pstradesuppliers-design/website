@@ -9,6 +9,7 @@ import { AdminLayout } from "./components/layout/AdminLayout";
 
 // Pages
 import { Hero } from "./components/home/Hero";
+import { UnderConstruction } from "./components/UnderConstruction";
 import { CompanyIntro } from "./components/home/CompanyIntro";
 import { WhyChooseUs } from "./components/home/WhyChooseUs";
 import { Solutions } from "./components/home/Solutions";
@@ -216,18 +217,18 @@ export const router = createBrowserRouter([
     path: "/",
     Component: RootLayout,
     children: [
-      { index: true, Component: HomePage },
-      { path: "about", Component: AboutUs },
-      { path: "solutions", Component: SolutionsPage },
-      { path: "solutions/:id", Component: SolutionDetailPage },
-      { path: "services", Component: ServicesPage },
-      { path: "services/:id", Component: ServiceDetailPage },
-      { path: "team", Component: TeamPage },
-      { path: "team/:id", Component: TeamProfilePage },
-      { path: "projects", Component: ProjectsPage },
-      { path: "projects/:id", Component: ProjectDetailPage },
-      { path: "contact", Component: ContactRoute },
-      { path: "*", Component: NotFound },
+      { index: true, Component: UnderConstruction },
+      // { path: "about", Component: AboutUs },
+      // { path: "solutions", Component: SolutionsPage },
+      // { path: "solutions/:id", Component: SolutionDetailPage },
+      // { path: "services", Component: ServicesPage },
+      // { path: "services/:id", Component: ServiceDetailPage },
+      // { path: "team", Component: TeamPage },
+      // { path: "team/:id", Component: TeamProfilePage },
+      // { path: "projects", Component: ProjectsPage },
+      // { path: "projects/:id", Component: ProjectDetailPage },
+      // { path: "contact", Component: ContactRoute },
+      // { path: "*", Component: NotFound },
     ],
   },
 ]);

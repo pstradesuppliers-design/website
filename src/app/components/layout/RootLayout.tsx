@@ -7,10 +7,10 @@ export function RootLayout() {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-white">
-      <Navbar />
+      {/* <Navbar /> */}
       <Outlet />
-      <Footer onAdmin={() => navigate("/admin")} />
-      <WhatsAppButton />
+      {/* <Footer onAdmin={() => navigate("/admin")} />
+      <WhatsAppButton /> */}
     </div>
   );
 }
